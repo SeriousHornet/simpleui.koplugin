@@ -185,6 +185,10 @@ function M.buildTabCell(action_id, active, tab_w, mode)
         }
     end
 
+    if mode == "icons" then
+        vg[#vg + 1] = VerticalSpan:new{ width = M.ICON_TOP_SP() + M.ICON_TXT_SP() }
+    end
+
     return CenterContainer:new{
         dimen = Geom:new{ w = tab_w, h = M.BAR_H() },
         vg,
@@ -252,6 +256,10 @@ function M.buildNavpagerArrowCell(is_prev, enabled, tab_w, mode)
             fgcolor = color,
         }
         vg[#vg + 1] = tw
+    end
+
+    if mode == "icons" then
+        vg[#vg + 1] = VerticalSpan:new{ width = M.ICON_TOP_SP() + M.ICON_TXT_SP() }
     end
 
     local cc = CenterContainer:new{

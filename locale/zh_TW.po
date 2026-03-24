@@ -1,5 +1,5 @@
 # Simple UI — KOReader Plugin
-# Chinese (Simplified) translation
+# Chinese (Traditional) translation
 # Copyright (C) 2024 Simple UI Contributors
 # This file is distributed under the same license as the Simple UI package.
 #
@@ -10,60 +10,60 @@ msgstr ""
 "POT-Creation-Date: 2026-03-16 21:54+0000\n"
 "PO-Revision-Date: 2026-03-24 00:00+0000\n"
 "Last-Translator: \n"
-"Language-Team: Chinese (Simplified)\n"
-"Language: zh_CN\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 
 msgid "  Physical Books  (%d in %s)"
-msgstr "  实体书  (%d 本，%s)"
+msgstr "  實體書  (%d 本，%s)"
 
 msgid "  Set Goal  (%d books in %s)"
-msgstr "  设置目标  (%s %d 本书)"
+msgstr "  設定目標  (%s %d 本書)"
 
 msgid "  Set Goal  (%d min/day)"
-msgstr "  设置目标  (每天 %d 分钟)"
+msgstr "  設定目標  (每天 %d 分鐘)"
 
 msgid "  Set Goal  (%s)"
-msgstr "  设置目标  (%s)"
+msgstr "  設定目標  (%s)"
 
 msgid "  Set Goal  (disabled)"
-msgstr "  设置目标  (已禁用)"
+msgstr "  設定目標  (已停用)"
 
 msgid "%d books"
-msgstr "%d 本书"
+msgstr "%d 本書"
 
 msgid "%d%% Read"
-msgstr "已读 %d%%"
+msgstr "已讀 %d%%"
 
 msgid "%d/%d books"
-msgstr "%d/%d 本书"
+msgstr "%d/%d 本書"
 
 msgid "%s TO GO"
-msgstr "还剩 %s"
+msgstr "還剩 %s"
 
 msgid "%s read"
-msgstr "已读 %s"
+msgstr "已讀 %s"
 
 msgid "Add at least 2 actions to arrange."
-msgstr "请至少添加 2 个操作来排序。"
+msgstr "請至少新增 2 個操作來排序。"
 
 msgid "Add at least 2 stats to arrange."
-msgstr "请至少添加 2 个统计项来排序。"
+msgstr "請至少新增 2 個統計項來排序。"
 
 msgid "All time — Books"
-msgstr "总计 — 书籍"
+msgstr "總計 — 書籍"
 
 msgid "All time — Time"
-msgstr "总计 — 时间"
+msgstr "總計 — 時間"
 
 msgid "Annual Goal"
-msgstr "年度目标"
+msgstr "年度目標"
 
 msgid "Annual Reading Goal"
-msgstr "年度阅读目标"
+msgstr "年度閱讀目標"
 
 msgid "Arrange"
 msgstr "排序"
@@ -72,37 +72,37 @@ msgid "Arrange %s"
 msgstr "排序 %s"
 
 msgid "Arrange Collections"
-msgstr "排序书单"
+msgstr "排序書單"
 
 msgid "Arrange Items"
-msgstr "排序项目"
+msgstr "排序項目"
 
 msgid "Arrange Modules"
-msgstr "排序模块"
+msgstr "排序模組"
 
 msgid "Arrange Reading Stats"
-msgstr "排序阅读统计"
+msgstr "排序閱讀統計"
 
 msgid "Arrange tabs"
-msgstr "排序标签页"
+msgstr "排序標籤頁"
 
 msgid "Auto (first book)"
-msgstr "自动（第一本书）"
+msgstr "自動（第一本書）"
 
 msgid "Battery"
-msgstr "电量"
+msgstr "電量"
 
 msgid "Book Info"
-msgstr "书籍信息"
+msgstr "書籍資訊"
 
 msgid "Books to read in %s:"
-msgstr "%s 要读的书："
+msgstr "%s 要讀的書："
 
 msgid "Bottom Bar"
-msgstr "底部栏"
+msgstr "底部欄"
 
 msgid "Bottom Bar will be %s after restart.\n\nRestart now?"
-msgstr "重启后底部栏将变为 %s。\n\n现在重启吗？"
+msgstr "重啟後底部欄將變為 %s。\n\n現在重啟嗎？"
 
 msgid "Brightness"
 msgstr "亮度"
@@ -111,94 +111,94 @@ msgid "Cancel"
 msgstr "取消"
 
 msgid "Clock"
-msgstr "时钟"
+msgstr "時鐘"
 
 msgid "Collection"
-msgstr "书单"
+msgstr "書單"
 
 msgid "Collection is empty."
-msgstr "书单为空。"
+msgstr "書單為空。"
 
 msgid "Collection not available: %s"
-msgstr "书单不可用：%s"
+msgstr "書單不可用：%s"
 
 msgid "Collections"
-msgstr "书单"
+msgstr "書單"
 
 msgid "Collections not available."
-msgstr "书单不可用。"
+msgstr "書單不可用。"
 
 msgid "Compact"
-msgstr "紧凑"
+msgstr "緊湊"
 
 msgid "Continue"
-msgstr "继续"
+msgstr "繼續"
 
 msgid "Create Quick Action"
-msgstr "创建快捷操作"
+msgstr "建立快捷操作"
 
 msgid "Currently Reading"
-msgstr "正在阅读"
+msgstr "正在閱讀"
 
 msgid "Custom"
-msgstr "自定义"
+msgstr "自訂"
 
 msgid "Custom Text"
-msgstr "自定义文本"
+msgstr "自訂文字"
 
 msgid "Daily Goal"
-msgstr "每日目标"
+msgstr "每日目標"
 
 msgid "Daily Reading Goal"
-msgstr "每日阅读目标"
+msgstr "每日閱讀目標"
 
 msgid "Daily avg — Pages"
-msgstr "日平均 — 页数"
+msgstr "日平均 — 頁數"
 
 msgid "Daily avg — Time"
-msgstr "日平均 — 时间"
+msgstr "日平均 — 時間"
 
 msgid "Date"
 msgstr "日期"
 
 msgid "Default"
-msgstr "默认"
+msgstr "預設"
 
 msgid "Default (Folder)"
-msgstr "默认（文件夹）"
+msgstr "預設（資料夾）"
 
 msgid "Default (Plugin)"
-msgstr "默认（插件）"
+msgstr "預設（外掛程式）"
 
 msgid "Default (System)"
-msgstr "默认（系统）"
+msgstr "預設（系統）"
 
 msgid "Delete"
-msgstr "删除"
+msgstr "刪除"
 
 msgid "Dictionary Lookup"
-msgstr "词典查询"
+msgstr "詞典查詢"
 
 msgid "Digital Goal  (%s)"
-msgstr "数字目标  (%s)"
+msgstr "數位目標  (%s)"
 
 msgid "Digital: %d books in %s"
-msgstr "数字：%s %d 本书"
+msgstr "數位：%s %d 本書"
 
 msgid "Disk Usage"
-msgstr "磁盘使用"
+msgstr "磁碟使用"
 
 msgid "Dispatcher not available."
-msgstr "调度器不可用。"
+msgstr "調度器不可用。"
 
 msgid "Edit"
-msgstr "编辑"
+msgstr "編輯"
 
 msgid "Edit Quick Action"
-msgstr "编辑快捷操作"
+msgstr "編輯快捷操作"
 
 msgid "Enable at least 2 modules to arrange."
-msgstr "请至少启用 2 个模块来排序。"
+msgstr "請至少啟用 2 個模組來排序。"
 
 msgid "Extra Small"
 msgstr "特小"
@@ -210,208 +210,208 @@ msgid "Favorites not available."
 msgstr "收藏不可用。"
 
 msgid "File Search"
-msgstr "文件搜索"
+msgstr "檔案搜尋"
 
 msgid "Folder"
-msgstr "文件夹"
+msgstr "資料夾"
 
 msgid "Folder Shortcuts"
-msgstr "文件夹快捷方式"
+msgstr "資料夾捷徑"
 
 msgid "Folder not found:\n%s"
-msgstr "文件夹未找到：\n%s"
+msgstr "資料夾未找到：\n%s"
 
 msgid "Frontlight not available on this device."
-msgstr "此设备不支持前光灯。"
+msgstr "此裝置不支援前光燈。"
 
 msgid "Header"
-msgstr "标题栏"
+msgstr "標題列"
 
 msgid "Header Text"
-msgstr "标题文本"
+msgstr "標題文字"
 
 msgid "History"
-msgstr "历史"
+msgstr "歷史"
 
 msgid "History not available."
-msgstr "历史不可用。"
+msgstr "歷史不可用。"
 
 msgid "Home"
-msgstr "主页"
+msgstr "首頁"
 
 msgid "Home Screen"
-msgstr "主屏幕"
+msgstr "主畫面"
 
 msgid "Homescreen"
-msgstr "主屏幕"
+msgstr "主畫面"
 
 msgid "Homescreen not available."
-msgstr "主屏幕不可用。"
+msgstr "主畫面不可用。"
 
 msgid "Icon"
-msgstr "图标"
+msgstr "圖示"
 
 msgid "Icon: Default"
-msgstr "图标：默认"
+msgstr "圖示：預設"
 
 msgid "Icons"
-msgstr "图标"
+msgstr "圖示"
 
 msgid "Icons only"
-msgstr "仅图标"
+msgstr "僅圖示"
 
 msgid "Invalid arrangement.\nKeep items between the Left and Right separators."
-msgstr "排序无效。\n请将项目保持在左右分隔符之间。"
+msgstr "排序無效。\n請將項目保持在左右分隔符之間。"
 
 msgid "Items"
-msgstr "项目"
+msgstr "項目"
 
 msgid "Large"
 msgstr "大"
 
 msgid "Later"
-msgstr "稍后"
+msgstr "稍後"
 
 msgid "Left"
 msgstr "左"
 
 msgid "Library"
-msgstr "书库"
+msgstr "書庫"
 
 msgid "Maximum %d actions per module reached. Remove one first."
-msgstr "每个模块最多 %d 个操作。请先删除一个。"
+msgstr "每個模組最多 %d 個操作。請先刪除一個。"
 
 msgid "Maximum %d modules active. Disable one first."
-msgstr "最多 %d 个活跃模块。请先禁用一个。"
+msgstr "最多 %d 個活躍模組。請先停用一個。"
 
 msgid "Maximum %d quick actions reached. Delete one first."
-msgstr "最多 %d 个快捷操作。请先删除一个。"
+msgstr "最多 %d 個快捷操作。請先刪除一個。"
 
 msgid "Maximum %d stats per row. Remove one first."
-msgstr "每行最多 %d 个统计项。请先删除一个。"
+msgstr "每列最多 %d 個統計項。請先刪除一個。"
 
 msgid "Maximum %d tabs reached. Remove one first."
-msgstr "最多 %d 个标签页。请先删除一个。"
+msgstr "最多 %d 個標籤頁。請先刪除一個。"
 
 msgid "Maximum 5 collections. Remove one first."
-msgstr "最多 5 个书单。请先删除一个。"
+msgstr "最多 5 個書單。請先刪除一個。"
 
 msgid "Minimum 2 tabs required. Select another tab first."
-msgstr "至少需要 2 个标签页。请先选择另一个标签页。"
+msgstr "至少需要 2 個標籤頁。請先選擇另一個標籤頁。"
 
 msgid "Minutes per day:"
-msgstr "每天分钟数："
+msgstr "每天分鐘數："
 
 msgid "Module Settings"
-msgstr "模块设置"
+msgstr "模組設定"
 
 msgid "Module limit disabled. Enabling too many modules may slow down the homescreen significantly and modules may be clipped at the bottom of the page."
-msgstr "已禁用模块限制。启用过多模块可能会显著减慢主屏幕速度，并且模块可能会被页面底部裁剪。"
+msgstr "已停用模組限制。啟用過多模組可能會顯著減慢主畫面速度，並且模組可能會被頁面底部裁剪。"
 
 msgid "Modules  (%d — no limit)"
-msgstr "模块  (%d — 无限制)"
+msgstr "模組  (%d — 無限制)"
 
 msgid "Modules  (%d/%d — %d left)"
-msgstr "模块  (%d/%d — 剩余 %d 个)"
+msgstr "模組  (%d/%d — 剩餘 %d 個)"
 
 msgid "Modules  (%d/%d — at limit)"
-msgstr "模块  (%d/%d — 已达上限)"
+msgstr "模組  (%d/%d — 已達上限)"
 
 msgid "Name"
-msgstr "名称"
+msgstr "名稱"
 
 msgid "Network manager unavailable."
-msgstr "网络管理器不可用。"
+msgstr "網路管理員不可用。"
 
 msgid "New Quick Action"
 msgstr "新建快捷操作"
 
 msgid "No Module Limit  ⚠ not recommended"
-msgstr "无模块限制  ⚠ 不推荐"
+msgstr "無模組限制  ⚠ 不推薦"
 
 msgid "No book in history."
-msgstr "历史中没有书籍。"
+msgstr "歷史中沒有書籍。"
 
 msgid "No books opened yet"
-msgstr "尚未打开任何书籍"
+msgstr "尚未打開任何書籍"
 
 msgid "No collections found."
-msgstr "未找到书单。"
+msgstr "未找到書單。"
 
 msgid "No collections selected"
-msgstr "未选择任何书单"
+msgstr "未選擇任何書單"
 
 msgid "No folder, collection or plugin configured.\nGo to Simple UI → Settings → Quick Actions to set one."
-msgstr "未配置文件夹、书单或插件。\n前往 Simple UI → 设置 → 快捷操作进行设置。"
+msgstr "未設定資料夾、書單或外掛程式。\n前往 Simple UI → 設定 → 快捷操作進行設定。"
 
 msgid "No icons found in:"
-msgstr "未在以下位置找到图标："
+msgstr "未在以下位置找到圖示："
 
 msgid "No plugins found."
-msgstr "未找到插件。"
+msgstr "未找到外掛程式。"
 
 msgid "No quotes found."
 msgstr "未找到名言。"
 
 msgid "No stats selected"
-msgstr "未选择任何统计项"
+msgstr "未選擇任何統計項"
 
 msgid "No system actions found."
-msgstr "未找到系统操作。"
+msgstr "未找到系統操作。"
 
 msgid "OK"
-msgstr "确定"
+msgstr "確定"
 
 msgid "Off"
-msgstr "关闭"
+msgstr "關閉"
 
 msgid "On"
-msgstr "开启"
+msgstr "開啟"
 
 msgid "Open a book to get started"
-msgstr "打开一本书开始阅读"
+msgstr "打開一本書開始閱讀"
 
 msgid "Pagination Bar"
-msgstr "分页栏"
+msgstr "分頁欄"
 
 msgid "Pagination bar size will change after restart.\n\nRestart now?"
-msgstr "重启后分页栏大小将更改。\n\n现在重启吗？"
+msgstr "重啟後分頁欄大小將變更。\n\n現在重啟嗎？"
 
 msgid "Pagination bar will be %s after restart.\n\nRestart now?"
-msgstr "重启后分页栏将变为 %s。\n\n现在重启吗？"
+msgstr "重啟後分頁欄將變為 %s。\n\n現在重啟嗎？"
 
 msgid "Path is not a folder:\n%s"
-msgstr "路径不是文件夹：\n%s"
+msgstr "路徑不是資料夾：\n%s"
 
 msgid "Physical Books — %s"
-msgstr "实体书 — %s"
+msgstr "實體書 — %s"
 
 msgid "Physical books read this year:"
-msgstr "今年阅读的实体书："
+msgstr "今年閱讀的實體書："
 
 msgid "Physical: %d books in %s"
-msgstr "实体：%s %d 本书"
+msgstr "實體：%s %d 本書"
 
 msgid "Plugin"
-msgstr "插件"
+msgstr "外掛程式"
 
 msgid "Plugin error: %s"
-msgstr "插件错误：%s"
+msgstr "外掛程式錯誤：%s"
 
 msgid "Plugin not available: %s"
-msgstr "插件不可用：%s"
+msgstr "外掛程式不可用：%s"
 
 msgid "Power"
-msgstr "电源"
+msgstr "電源"
 
 msgid "Quick Actions"
 msgstr "快捷操作"
 
 msgid "Quick Actions  (%d/%d — %d left)"
-msgstr "快捷操作  (%d/%d — 剩余 %d 个)"
+msgstr "快捷操作  (%d/%d — 剩餘 %d 個)"
 
 msgid "Quick Actions  (%d/%d — at limit)"
-msgstr "快捷操作  (%d/%d — 已达上限)"
+msgstr "快捷操作  (%d/%d — 已達上限)"
 
 msgid "Quick Actions %d"
 msgstr "快捷操作 %d"
@@ -423,40 +423,40 @@ msgid "Quote of the Day"
 msgstr "每日名言"
 
 msgid "RAM Usage"
-msgstr "内存使用"
+msgstr "記憶體使用"
 
 msgid "Reading Goals"
-msgstr "阅读目标"
+msgstr "閱讀目標"
 
 msgid "Reading Stats"
-msgstr "阅读统计"
+msgstr "閱讀統計"
 
 msgid "Recent Books"
-msgstr "最近的书"
+msgstr "最近的書"
 
 msgid "Restart"
-msgstr "重启"
+msgstr "重新啟動"
 
 msgid "Right"
 msgstr "右"
 
 msgid "Save"
-msgstr "保存"
+msgstr "儲存"
 
 msgid "Select at least 2 collections to arrange."
-msgstr "请至少选择 2 个书单来排序。"
+msgstr "請至少選擇 2 個書單來排序。"
 
 msgid "Settings"
-msgstr "设置"
+msgstr "設定"
 
 msgid "Show Labels"
-msgstr "显示标签"
+msgstr "顯示標籤"
 
 msgid "Simple UI"
 msgstr "Simple UI"
 
 msgid "Simple UI will be %s after restart.\n\nRestart now?"
-msgstr "重启后 Simple UI 将变为 %s。\n\n现在重启吗？"
+msgstr "重啟後 Simple UI 將變為 %s。\n\n現在重啟嗎？"
 
 msgid "Size"
 msgstr "大小"
@@ -465,94 +465,94 @@ msgid "Small"
 msgstr "小"
 
 msgid "Start with"
-msgstr "从...开始"
+msgstr "從...開始"
 
 msgid "Start with Home Screen"
-msgstr "从主屏幕开始"
+msgstr "從主畫面開始"
 
 msgid "Statistics plugin not available."
-msgstr "统计插件不可用。"
+msgstr "統計外掛程式不可用。"
 
 msgid "Stats"
-msgstr "统计"
+msgstr "統計"
 
 msgid "Streak"
-msgstr "连续阅读"
+msgstr "連續閱讀"
 
 msgid "Swipe Indicator"
-msgstr "滑动指示"
+msgstr "滑動指示"
 
 msgid "System Actions"
-msgstr "系统操作"
+msgstr "系統操作"
 
 msgid "System action error: %s"
-msgstr "系统操作错误：%s"
+msgstr "系統操作錯誤：%s"
 
 msgid "Tabs  (%d/%d — %d left)"
-msgstr "标签页  (%d/%d — 剩余 %d 个)"
+msgstr "標籤頁  (%d/%d — 剩餘 %d 個)"
 
 msgid "Tabs  (%d/%d — at limit)"
-msgstr "标签页  (%d/%d — 已达上限)"
+msgstr "標籤頁  (%d/%d — 已達上限)"
 
 msgid "Text"
-msgstr "文本"
+msgstr "文字"
 
 msgid "Text only"
-msgstr "仅文本"
+msgstr "僅文字"
 
 msgid "Today"
 msgstr "今天"
 
 msgid "Today — Pages"
-msgstr "今天 — 页数"
+msgstr "今天 — 頁數"
 
 msgid "Today — Time"
-msgstr "今天 — 时间"
+msgstr "今天 — 時間"
 
 msgid "Top Bar"
-msgstr "顶部栏"
+msgstr "頂部欄"
 
 msgid "Top Bar will be %s after restart.\n\nRestart now?"
-msgstr "重启后顶部栏将变为 %s。\n\n现在重启吗？"
+msgstr "重啟後頂部欄將變為 %s。\n\n現在重啟嗎？"
 
 msgid "Type"
-msgstr "类型"
+msgstr "類型"
 
 msgid "Wi-Fi"
 msgstr "Wi-Fi"
 
 msgid "Wi-Fi off"
-msgstr "Wi-Fi 已关闭"
+msgstr "Wi-Fi 已關閉"
 
 msgid "WiFi"
 msgstr "Wi-Fi"
 
 msgid "WiFi not available on this device."
-msgstr "此设备不支持 Wi-Fi。"
+msgstr "此裝置不支援 Wi-Fi。"
 
 msgid "Wikipedia Lookup"
-msgstr "维基百科查询"
+msgstr "維基百科查詢"
 
 msgid "books finished"
-msgstr "已完成的书"
+msgstr "已完成的書"
 
 msgid "daily avg (7 days)"
 msgstr "日平均（7天）"
 
 msgid "day streak"
-msgstr "天连续"
+msgstr "天連續"
 
 msgid "days streak"
-msgstr "天连续"
+msgstr "天連續"
 
 msgid "disabled"
-msgstr "已禁用"
+msgstr "已停用"
 
 msgid "e.g. Books…"
-msgstr "例如：书籍…"
+msgstr "例如：書籍…"
 
 msgid "e.g. My Library"
-msgstr "例如：我的书库"
+msgstr "例如：我的書庫"
 
 msgid "e.g. Rakuyomi…"
 msgstr "例如：Rakuyomi…"
@@ -561,79 +561,79 @@ msgid "e.g. Sci-Fi…"
 msgstr "例如：科幻…"
 
 msgid "e.g. Sleep, Refresh…"
-msgstr "例如：睡眠、刷新…"
+msgstr "例如：睡眠、重新整理…"
 
 msgid "enabled"
-msgstr "已启用"
+msgstr "已啟用"
 
 msgid "hidden"
-msgstr "隐藏"
+msgstr "隱藏"
 
 msgid "not configured"
-msgstr "未配置"
+msgstr "未設定"
 
 msgid "of reading today"
-msgstr "今天阅读"
+msgstr "今天閱讀"
 
 msgid "of reading, all time"
-msgstr "总计阅读"
+msgstr "總計閱讀"
 
 msgid "pages read today"
-msgstr "今天阅读页数"
+msgstr "今天閱讀頁數"
 
 msgid "pages/day (7 days)"
-msgstr "页/天（7天）"
+msgstr "頁/天（7天）"
 
 msgid "visible"
-msgstr "可见"
+msgstr "可見"
 
 msgid "Arrange Buttons"
-msgstr "排序按钮"
+msgstr "排序按鈕"
 
 msgid "Back"
 msgstr "返回"
 
 msgid "Button Size"
-msgstr "按钮大小"
+msgstr "按鈕大小"
 
 msgid "Close"
-msgstr "关闭"
+msgstr "關閉"
 
 msgid "Custom Title Bar"
-msgstr "自定义标题栏"
+msgstr "自訂標題列"
 
 msgid "Custom Title Bar will be %s after restart.\n\nRestart now?"
-msgstr "重启后自定义标题栏将变为 %s。\n\n现在重启吗？"
+msgstr "重啟後自訂標題列將變為 %s。\n\n現在重啟嗎？"
 
 msgid "Library Buttons"
-msgstr "书库按钮"
+msgstr "書庫按鈕"
 
 msgid "Menu"
-msgstr "菜单"
+msgstr "選單"
 
 msgid "More Options"
-msgstr "更多选项"
+msgstr "更多選項"
 
 msgid "Sub-pages Buttons"
-msgstr "子页面按钮"
+msgstr "子頁面按鈕"
 
 msgid "Title"
-msgstr "标题"
+msgstr "標題"
 
 msgid "Title Bar"
-msgstr "标题栏"
+msgstr "標題列"
 
 msgid "Search"
-msgstr "搜索"
+msgstr "搜尋"
 
 msgid "Delete quick action \"%s\"?"
-msgstr "删除快捷操作 \"%s\"？"
+msgstr "刪除快捷操作 \"%s\"？"
 
 msgid "Show Date"
-msgstr "显示日期"
+msgstr "顯示日期"
 
 msgid "Show Battery"
-msgstr "显示电量"
+msgstr "顯示電量"
 
 msgid "Cards"
 msgstr "卡片"
@@ -648,25 +648,25 @@ msgid "    Size"
 msgstr "    大小"
 
 msgid "Apply"
-msgstr "应用"
+msgstr "套用"
 
 msgid "Bookmark browser"
-msgstr "书签浏览器"
+msgstr "書籤瀏覽器"
 
 msgid "Bookmark browser not available."
-msgstr "书签浏览器不可用。"
+msgstr "書籤瀏覽器不可用。"
 
 msgid "Bookmarks"
-msgstr "书签"
+msgstr "書籤"
 
 msgid "Bottom"
 msgstr "底部"
 
 msgid "Bottom Bar Size"
-msgstr "底部栏大小"
+msgstr "底部欄大小"
 
 msgid "Change Icons"
-msgstr "更改图标"
+msgstr "變更圖示"
 
 msgid "Cover size"
 msgstr "封面大小"
@@ -675,235 +675,235 @@ msgid "Cover size  —  %d%%"
 msgstr "封面大小  —  %d%%"
 
 msgid "Fetching bookmarks…"
-msgstr "正在获取书签…"
+msgstr "正在取得書籤…"
 
 msgid "Global scale for all modules.\nIndividual overrides in Module Settings take precedence.\n100% is the default size."
-msgstr "所有模块的全局缩放。\n模块设置中的单独覆盖优先。\n100% 为默认大小。"
+msgstr "所有模組的全域縮放。\n模組設定中的單獨覆蓋優先。\n100% 為預設大小。"
 
 msgid "Height of the bottom navigation bar.\n100% is the default size."
-msgstr "底部导航栏的高度。\n100% 为默认大小。"
+msgstr "底部導覽列的高度。\n100% 為預設大小。"
 
 msgid "Height of the top status bar.\n100% is the default size."
-msgstr "顶部状态栏的高度。\n100% 为默认大小。"
+msgstr "頂部狀態列的高度。\n100% 為預設大小。"
 
 msgid "Hidden"
-msgstr "隐藏"
+msgstr "隱藏"
 
 msgid "Home folder"
-msgstr "主文件夹"
+msgstr "主資料夾"
 
 msgid "Home folder + subfolders"
-msgstr "主文件夹 + 子文件夹"
+msgstr "主資料夾 + 子資料夾"
 
 msgid "Label Scale"
-msgstr "标签缩放"
+msgstr "標籤縮放"
 
 msgid "Labels  —  %d%%"
-msgstr "标签  —  %d%%"
+msgstr "標籤  —  %d%%"
 
 msgid "Minimum 1 tab required in navpager mode."
-msgstr "页面导航模式下至少需要 1 个标签。"
+msgstr "頁面導覽模式下至少需要 1 個標籤。"
 
 msgid "Module Scale"
-msgstr "模块缩放"
+msgstr "模組縮放"
 
 msgid "Modules  —  %d%%"
-msgstr "模块  —  %d%%"
+msgstr "模組  —  %d%%"
 
 msgid "Navigation Bar"
-msgstr "导航栏"
+msgstr "導覽列"
 
 msgid "Navpager"
-msgstr "页面导航器"
+msgstr "頁面導覽器"
 
 msgid "Navpager will be %s after restart.\n\nRestart now?"
-msgstr "页面导航器将在重启后变为 %s。\n\n立即重启？"
+msgstr "頁面導覽器將在重啟後變為 %s。\n\n立即重啟？"
 
 msgid "New name…"
-msgstr "新名称…"
+msgstr "新名稱…"
 
 msgid "Next"
-msgstr "下一页"
+msgstr "下一頁"
 
 msgid "No highlights found. Open a book and highlight some passages."
-msgstr "未找到高亮内容。请打开一本书并高亮一些段落。"
+msgstr "未找到高亮內容。請打開一本書並高亮一些段落。"
 
 msgid "Page %1 of %2"
-msgstr "第 %1 页，共 %2 页"
+msgstr "第 %1 頁，共 %2 頁"
 
 msgid "Page number in title bar"
-msgstr "标题栏中的页码"
+msgstr "標題列中的頁碼"
 
 msgid "Prev"
-msgstr "上一页"
+msgstr "上一頁"
 
 msgid "Rename"
-msgstr "重命名"
+msgstr "重新命名"
 
 msgid "Replaces the pagination bar with Prev/Next arrows at the edges of the bottom bar.\nThe arrows dim when there is no previous or next page.\nWith navpager active, as few as 1 tab and at most 4 tabs can be configured."
-msgstr "将分页栏替换为底部栏两端的上一页/下一页箭头。\n当没有上一页或下一页时，箭头变暗。\n启用页面导航器时，可配置 1 到 4 个标签。"
+msgstr "將分頁欄替換為底部欄兩端的上一頁/下一頁箭頭。\n當沒有上一頁或下一頁時，箭頭變暗。\n啟用頁面導覽器時，可設定 1 到 4 個標籤。"
 
 msgid "Reset"
 msgstr "重置"
 
 msgid "Reset all scales to default (100%)? This cannot be undone."
-msgstr "将所有缩放重置为默认值 (100%)？此操作无法撤销。"
+msgstr "將所有縮放重置為預設值 (100%)？此操作無法復原。"
 
 msgid "Reset to Default Scale"
-msgstr "重置为默认缩放"
+msgstr "重置為預設縮放"
 
 msgid "Scale"
-msgstr "缩放"
+msgstr "縮放"
 
 msgid "Scale  —  %d%%"
-msgstr "缩放  —  %d%%"
+msgstr "縮放  —  %d%%"
 
 msgid "Scale  —  %d%% / %d%%"
-msgstr "缩放  —  %d%% / %d%%"
+msgstr "縮放  —  %d%% / %d%%"
 
 msgid "Scale for the collection thumbnails only.\nThe label text follows the module scale.\n100% is the default size."
-msgstr "仅用于收藏夹缩略图的缩放。\n标签文本跟随模块缩放。\n100% 为默认大小。"
+msgstr "僅用於收藏夾縮圖的縮放。\n標籤文字跟隨模組縮放。\n100% 為預設大小。"
 
 msgid "Scales all modules and labels together.\n100% is the default size."
-msgstr "同时缩放所有模块和标签。\n100% 为默认大小。"
+msgstr "同時縮放所有模組和標籤。\n100% 為預設大小。"
 
 msgid "Scales the section label text above each module.\n100% is the default size."
-msgstr "缩放每个模块上方的分区标签文本。\n100% 为默认大小。"
+msgstr "縮放每個模組上方的分區標籤文字。\n100% 為預設大小。"
 
 msgid "Simple UI was updated (%s → %s).\n\nA restart is recommended to apply all changes cleanly."
-msgstr "Simple UI 已更新（%s → %s）。\n\n建议重启以完整应用所有更改。"
+msgstr "Simple UI 已更新（%s → %s）。\n\n建議重啟以完整套用所有變更。"
 
 msgid "Size  —  %d%%"
 msgstr "大小  —  %d%%"
 
 msgid "Status Bar"
-msgstr "状态栏"
+msgstr "狀態列"
 
 msgid "Top"
-msgstr "顶部"
+msgstr "頂部"
 
 msgid "Top Bar Size"
-msgstr "顶部栏大小"
+msgstr "頂部欄大小"
 
 msgid "Top separator"
-msgstr "顶部分隔符"
+msgstr "頂部分隔符"
 
 msgid "Visible"
-msgstr "可见"
+msgstr "可見"
 
 msgid "Your highlights"
-msgstr "您的高亮内容"
+msgstr "您的高亮內容"
 
 msgid "Lock Scale"
-msgstr "锁定缩放"
+msgstr "鎖定縮放"
 
 msgid "Disable \"Lock Scale\" first to set a per-module scale."
-msgstr "请先关闭\"锁定缩放\"，再设置单个模块的缩放比例。"
+msgstr "請先關閉\"鎖定縮放\"，再設定單個模組的縮放比例。"
 
 msgid "Disable \"Lock Scale\" first to set a custom label scale."
-msgstr "请先关闭\"锁定缩放\"，再设置自定义标签缩放比例。"
+msgstr "請先關閉\"鎖定縮放\"，再設定自訂標籤縮放比例。"
 
 msgid "Text Size"
 msgstr "文字大小"
 
 msgid "Modules"
-msgstr "模块"
+msgstr "模組"
 
 msgid "Labels"
-msgstr "标签"
+msgstr "標籤"
 
 msgid "Scale for this module.\n100% is the default size."
-msgstr "此模块的缩放比例。\n100% 为默认大小。"
+msgstr "此模組的縮放比例。\n100% 為預設大小。"
 
 msgid "Scale for the collection name text.\n100% is the default size."
-msgstr "书单名称文字的缩放比例。\n100% 为默认大小。"
+msgstr "書單名稱文字的縮放比例。\n100% 為預設大小。"
 
 msgid "Scale for the cover thumbnail only.\n100% is the default size."
-msgstr "仅调整封面缩略图的缩放比例。\n100% 为默认大小。"
+msgstr "僅調整封面縮圖的縮放比例。\n100% 為預設大小。"
 
 msgid "Scale for all text elements (title, author, progress, time).\n100% is the default size."
-msgstr "所有文字元素（书名、作者、进度、时间）的缩放比例。\n100% 为默认大小。"
+msgstr "所有文字元素（書名、作者、進度、時間）的縮放比例。\n100% 為預設大小。"
 
 msgid "Scale for the button label text.\n100% is the default size."
-msgstr "按钮标签文字的缩放比例。\n100% 为默认大小。"
+msgstr "按鈕標籤文字的縮放比例。\n100% 為預設大小。"
 
 msgid "Scale for the cover thumbnails only.\nText and progress bar follow the module scale.\n100% is the default size."
-msgstr "仅调整封面缩略图的缩放比例。\n文字和进度条跟随模块缩放。\n100% 为默认大小。"
+msgstr "僅調整封面縮圖的縮放比例。\n文字和進度列跟隨模組縮放。\n100% 為預設大小。"
 
 msgid "Scale for the percentage read text.\n100% is the default size."
-msgstr "已读百分比文字的缩放比例。\n100% 为默认大小。"
+msgstr "已讀百分比文字的縮放比例。\n100% 為預設大小。"
 
 msgid "Source"
-msgstr "来源"
+msgstr "來源"
 
 msgid "Default Quotes"
-msgstr "默认名言"
+msgstr "預設名言"
 
 msgid "My Highlights"
-msgstr "我的批注"
+msgstr "我的批註"
 
 msgid "Quotes + My Highlights"
-msgstr "名言 + 我的批注"
+msgstr "名言 + 我的批註"
 
 msgid "default"
-msgstr "默认"
+msgstr "預設"
 
 msgid "Shows \"Page X of Y\" in the title bar subtitle when browsing the library, history or collections.\nNavpager enables this automatically.\nNot available when Navpager is active."
-msgstr "在浏览书库、历史记录或书单时，在标题栏副标题中显示\"第X页/共Y页\"。\n翻页导航栏会自动启用此功能。\n翻页导航栏激活时不可用。"
+msgstr "在瀏覽書庫、歷史記錄或書單時，在標題列副標題中顯示\"第X頁/共Y頁\"。\n翻頁導覽列會自動啟用此功能。\n翻頁導覽列啟用時不可用。"
 
 msgid "Icon Size"
-msgstr "图标大小"
+msgstr "圖示大小"
 
 msgid "Icon Size — %d%%"
-msgstr "图标大小  —  %d%%"
+msgstr "圖示大小  —  %d%%"
 
 msgid "Label Size"
-msgstr "标签大小"
+msgstr "標籤大小"
 
 msgid "Label Size — %d%%"
-msgstr "标签大小  —  %d%%"
+msgstr "標籤大小  —  %d%%"
 
 msgid "Size of the tab icons.\n100% is the default size."
-msgstr "标签页图标的大小。\n100% 为默认大小。"
+msgstr "標籤頁圖示的大小。\n100% 為預設大小。"
 
 msgid "Size of the tab label text.\n100% is the default size."
-msgstr "标签页标签文字的大小。\n100% 为默认大小。"
+msgstr "標籤頁標籤文字的大小。\n100% 為預設大小。"
 
 msgid "Folder Covers"
-msgstr "文件夹封面"
+msgstr "資料夾封面"
 
 msgid "Folder cover"
-msgstr "文件夹封面"
+msgstr "資料夾封面"
 
 msgid "Set folder cover…"
-msgstr "设置文件夹封面…"
+msgstr "設定資料夾封面…"
 
 msgid "No books found in this folder."
-msgstr "此文件夹中未找到书籍。"
+msgstr "此資料夾中未找到書籍。"
 
 msgid "Badge"
 msgstr "徽章"
 
 msgid "Center"
-msgstr "居中"
+msgstr "置中"
 
 msgid "Label"
-msgstr "标签"
+msgstr "標籤"
 
 msgid "Show label"
-msgstr "显示标签"
+msgstr "顯示標籤"
 
 msgid "Transparent"
 msgstr "透明"
 
 msgid "Hide selection underline"
-msgstr "隐藏选中下划线"
+msgstr "隱藏選取下劃線"
 
 msgid "Author"
 msgstr "作者"
 
 msgid "Progress bar"
-msgstr "进度条"
+msgstr "進度列"
 
 msgid "Percentage read"
-msgstr "已读百分比"
+msgstr "已讀百分比"
