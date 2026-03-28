@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-16 21:54+0000\n"
 "PO-Revision-Date: 2026-03-16 21:54+0000\n"
-"Last-Translator: \n"
-"Language-Team: Español (España)\n"
+"Last-Translator: Luna <aldekoaluna@gmail.com>\n"
+"Language-Team: Español\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,28 +22,28 @@ msgid "  Physical Books  (%d in %s)"
 msgstr "  Libros físicos  (%d en %s)"
 
 msgid "  Set Goal  (%d books in %s)"
-msgstr "  Definir objetivo  (%d libros en %s)"
+msgstr "  Establecer objetivo  (%d libros en %s)"
 
 msgid "  Set Goal  (%d min/day)"
-msgstr "  Definir objetivo  (%d min/día)"
+msgstr "  Establecer objetivo  (%d min/día)"
 
 msgid "  Set Goal  (%s)"
-msgstr "  Definir objetivo  (%s)"
+msgstr "  Establecer objetivo  (%s)"
 
 msgid "  Set Goal  (disabled)"
-msgstr "  Definir objetivo  (desactivado)"
+msgstr "  Establecer objetivo  (desactivado)"
 
 msgid "%d books"
 msgstr "%d libros"
 
 msgid "%d%% Read"
-msgstr "%d%% Leído"
+msgstr "%d%% leído"
 
 msgid "%d/%d books"
 msgstr "%d/%d libros"
 
 msgid "%s TO GO"
-msgstr "%s PENDIENTES"
+msgstr "Ir a %s"
 
 msgid "%s read"
 msgstr "%s leído"
@@ -94,7 +94,7 @@ msgid "Battery"
 msgstr "Batería"
 
 msgid "Book Info"
-msgstr "Info del libro"
+msgstr "Información del libro"
 
 msgid "Books to read in %s:"
 msgstr "Libros para leer en %s:"
@@ -103,7 +103,7 @@ msgid "Bottom Bar"
 msgstr "Barra inferior"
 
 msgid "Bottom Bar will be %s after restart.\n\nRestart now?"
-msgstr "La barra inferior mostrará %s despues del reinicio.\n\n¿Reiniciar ahora?"
+msgstr "La barra inferior será %s después de reiniciar.\n\n¿Reiniciar ahora?"
 
 msgid "Brightness"
 msgstr "Brillo"
@@ -136,22 +136,22 @@ msgid "Continue"
 msgstr "Continuar"
 
 msgid "Create Quick Action"
-msgstr "Crear Acción rápida"
+msgstr "Crear acción"
 
 msgid "Currently Reading"
 msgstr "Leyendo"
 
 msgid "Custom"
-msgstr "Personalizado"
+msgstr "Personalizar"
 
 msgid "Custom Text"
-msgstr "Texto personalizado"
+msgstr "Personalizar texto"
 
 msgid "Daily Goal"
 msgstr "Objetivo diario"
 
 msgid "Daily Reading Goal"
-msgstr "Objetivo diario de lectura"
+msgstr "Objetivo de lectura al día"
 
 msgid "Daily avg — Pages"
 msgstr "Promedio diario — Páginas"
@@ -178,7 +178,7 @@ msgid "Delete"
 msgstr "Eliminar"
 
 msgid "Dictionary Lookup"
-msgstr "Consultar diccionario"
+msgstr "Buscar en el diccionario"
 
 msgid "Digital Goal  (%s)"
 msgstr "Objetivo digital  (%s)"
@@ -190,19 +190,19 @@ msgid "Disk Usage"
 msgstr "Uso del disco"
 
 msgid "Dispatcher not available."
-msgstr "Dispatcher no disponible."
+msgstr "Servicio no disponible."
 
 msgid "Edit"
 msgstr "Editar"
 
 msgid "Edit Quick Action"
-msgstr "Editar Acción rápida"
+msgstr "Editar acción"
 
 msgid "Enable at least 2 modules to arrange."
 msgstr "Habilite al menos 2 módulos para organizar."
 
 msgid "Extra Small"
-msgstr "Extra Pequeño"
+msgstr "Muy pequeño"
 
 msgid "Favorites"
 msgstr "Favoritos"
@@ -217,19 +217,19 @@ msgid "Folder"
 msgstr "Carpeta"
 
 msgid "Folder Shortcuts"
-msgstr "Atajos de carpeta"
+msgstr "Accesos directos"
 
 msgid "Folder not found:\n%s"
 msgstr "Carpeta no encontrada:\n%s"
 
 msgid "Frontlight not available on this device."
-msgstr "Luz frontal no disponible en este dispositivo."
+msgstr "La luz frontal no está disponible en este dispositivo."
 
 msgid "Header"
 msgstr "Encabezado"
 
 msgid "Header Text"
-msgstr "Texto de encabezado"
+msgstr "Texto del encabezado"
 
 msgid "History"
 msgstr "Historial"
@@ -244,10 +244,10 @@ msgid "Home Screen"
 msgstr "Pantalla de inicio"
 
 msgid "Homescreen"
-msgstr "Pantalla inicial"
+msgstr "Pantalla de inicio"
 
 msgid "Homescreen not available."
-msgstr "Pantalla inicial no disponible."
+msgstr "Pantalla de inicio no disponible."
 
 msgid "Icon"
 msgstr "Icono"
@@ -262,7 +262,7 @@ msgid "Icons only"
 msgstr "Solo iconos"
 
 msgid "Invalid arrangement.\nKeep items between the Left and Right separators."
-msgstr "Disposición no válida.\nMantenga los elementos entre los separadores izquierdo y derecho."
+msgstr "Organización inválida.\nMantén los elementos dentro de los separadores Izquierda y Derecha."
 
 msgid "Items"
 msgstr "Elementos"
@@ -298,7 +298,7 @@ msgid "Maximum 5 collections. Remove one first."
 msgstr "Máximo de 5 colecciones. Elimine una primero."
 
 msgid "Minimum 2 tabs required. Select another tab first."
-msgstr "Mínimo de 2 pestañas necesarias. Seleccione otra pestaña primero."
+msgstr "Mínimo de 2 pestañas requeridas. Seleccione otra pestaña más."
 
 msgid "Minutes per day:"
 msgstr "Minutos por día:"
@@ -322,16 +322,16 @@ msgid "Name"
 msgstr "Nombre"
 
 msgid "Network manager unavailable."
-msgstr "Administrador de redes no disponible."
+msgstr "Administrador de red no disponible."
 
 msgid "New Quick Action"
-msgstr "Nueva Acción rápida"
+msgstr "Nueva acción"
 
 msgid "No Module Limit  ⚠ not recommended"
 msgstr "Sin límite de módulos  ⚠ no recomendado"
 
 msgid "No book in history."
-msgstr "Ningún libro en el historial."
+msgstr "No hay libro alguno en el historial."
 
 msgid "No books opened yet"
 msgstr "Aún no se han abierto libros"
@@ -343,7 +343,7 @@ msgid "No collections selected"
 msgstr "No hay colecciones seleccionadas"
 
 msgid "No folder, collection or plugin configured.\nGo to Simple UI → Settings → Quick Actions to set one."
-msgstr "No hay ninguna carpeta, colección o complemento configurado.\nVe a Simple UI → Configuración → Acciones Rápidas para configurar."
+msgstr "No se encontró carpeta, colección o complemento configurado.\nVe a Simple UI → Configuración → Acciones rápidas y configura uno."
 
 msgid "No icons found in:"
 msgstr "No se encontraron íconos en:"
@@ -382,10 +382,10 @@ msgid "Pagination Bar"
 msgstr "Barra de paginación"
 
 msgid "Pagination bar size will change after restart.\n\nRestart now?"
-msgstr "El tamaño de la barra de paginación cambiará después del reinicio.\n\n¿Reiniciar ahora?"
+msgstr "El tamaño de la barra de paginación cambiará después de reiniciar.\n\n¿Reiniciar ahora?"
 
 msgid "Pagination bar will be %s after restart.\n\nRestart now?"
-msgstr "La barra de paginación mostrará %s después del reinicio.\n\n¿Reiniciar ahora?"
+msgstr "La barra de paginación mostrará %s después de reiniciar.\n\n¿Reiniciar ahora?"
 
 msgid "Path is not a folder:\n%s"
 msgstr "La ruta no es una carpeta:\n%s"
@@ -403,13 +403,13 @@ msgid "Plugin"
 msgstr "Complemento"
 
 msgid "Plugin error: %s"
-msgstr "Error de Complemento: %s"
+msgstr "Error del complemento: %s"
 
 msgid "Plugin not available: %s"
 msgstr "Complemento no disponible: %s"
 
 msgid "Power"
-msgstr "Energia"
+msgstr "Energía"
 
 msgid "Quick Actions"
 msgstr "Acciones rápidas"
@@ -463,7 +463,7 @@ msgid "Simple UI"
 msgstr "Simple UI"
 
 msgid "Simple UI will be %s after restart.\n\nRestart now?"
-msgstr "Simple UI mostrará %s después del reinicio.\n\n¿Reiniciar ahora?"
+msgstr "Simple UI será %s después de reiniciar.\n\n¿Reiniciar ahora?"
 
 msgid "Size"
 msgstr "Tamaño"
@@ -475,7 +475,7 @@ msgid "Start with"
 msgstr "Iniciar con"
 
 msgid "Start with Home Screen"
-msgstr "Comience con la pantalla de inicio"
+msgstr "Comenzar en la pantalla de inicio"
 
 msgid "Statistics plugin not available."
 msgstr "Complemento de estadísticas no disponible."
@@ -517,10 +517,10 @@ msgid "Today — Time"
 msgstr "Hoy — Tiempo"
 
 msgid "Top Bar"
-msgstr "Barra Superior"
+msgstr "Barra superior"
 
 msgid "Top Bar will be %s after restart.\n\nRestart now?"
-msgstr "La barra superior mostrará %s después del reinicio.\n\n¿Reiniciar ahora?"
+msgstr "La barra superior será %s después de reiniciar.\n\n¿Reiniciar ahora?"
 
 msgid "Type"
 msgstr "Tipo"
@@ -529,7 +529,7 @@ msgid "Wi-Fi"
 msgstr "Wi-Fi"
 
 msgid "Wi-Fi off"
-msgstr "Wi-Fi desconectado"
+msgstr "Wi-Fi apagado"
 
 msgid "WiFi"
 msgstr "WiFi"
@@ -538,37 +538,37 @@ msgid "WiFi not available on this device."
 msgstr "WiFi no disponible en este dispositivo."
 
 msgid "Wikipedia Lookup"
-msgstr "Búsqueda en Wikipedia"
+msgstr "Buscar en Wikipedia"
 
 msgid "books finished"
 msgstr "Libros terminados"
 
 msgid "daily avg (7 days)"
-msgstr "Promedio diario (7 dias)"
+msgstr "Promedio diario (7 días)"
 
 msgid "day streak"
-msgstr "Racha diaria"
+msgstr "racha diaria"
 
 msgid "days streak"
-msgstr "Dias en racha"
+msgstr "días en racha"
 
 msgid "disabled"
 msgstr "desactivado"
 
 msgid "e.g. Books…"
-msgstr "p.ej.: Libros…"
+msgstr "p. ej.: Libros…"
 
 msgid "e.g. My Library"
-msgstr "p.ej.: Mi Biblioteca"
+msgstr "p. ej.: Mi Biblioteca"
 
 msgid "e.g. Rakuyomi…"
-msgstr "p.ej.: Rakuyomi…"
+msgstr "p. ej.: Rakuyomi…"
 
 msgid "e.g. Sci-Fi…"
-msgstr "p.ej.: Ciencia ficción…"
+msgstr "p. ej.: Ciencia ficción…"
 
 msgid "e.g. Sleep, Refresh…"
-msgstr "p.ej.: Dormir, Actualizar…"
+msgstr "p. ej.: Dormir, Actualizar…"
 
 msgid "enabled"
 msgstr "activado"
@@ -580,13 +580,13 @@ msgid "not configured"
 msgstr "no configurado"
 
 msgid "of reading today"
-msgstr "de lectura hoy"
+msgstr "de lectura (hoy)"
 
 msgid "of reading, all time"
-msgstr "de lectura, total"
+msgstr "de lectura (total)"
 
 msgid "pages read today"
-msgstr "páginas leidas hoy"
+msgstr "páginas leídas (hoy)"
 
 msgid "pages/day (7 days)"
 msgstr "páginas/día (7 días)"
@@ -667,7 +667,7 @@ msgid "Navpager"
 msgstr "Navegador de páginas"
 
 msgid "Navpager will be %s after restart.\n\nRestart now?"
-msgstr "El navegador de páginas quedará %s después de reiniciar.\n\n¿Reiniciar ahora?"
+msgstr "El navegador de páginas será %s después de reiniciar.\n\n¿Reiniciar ahora?"
 
 msgid "New name…"
 msgstr "Nuevo nombre…"
@@ -713,13 +713,13 @@ msgstr "Escala  —  %d%% / %d%%"
 
 
 msgid "Scale for the collection thumbnails only.\nThe label text follows the module scale.\n100% is the default size."
-msgstr "Escala solo para las miniaturas de colecciones.\nEl texto de la etiqueta sigue la escala del módulo.\n100% es el tamaño predeterminado."
+msgstr "Escalar solo para las miniaturas de las colecciones.\nEl texto de la etiqueta seguirá la escala del módulo.\n100% es el tamaño predeterminado."
 
 msgid "Scales all modules and labels together.\n100% is the default size."
-msgstr "Escala todos los módulos y etiquetas juntos.\n100% es el tamaño predeterminado."
+msgstr "Escalar todos los módulos y etiquetas.\n100% es el tamaño predeterminado."
 
 msgid "Scales the section label text above each module.\n100% is the default size."
-msgstr "Escala el texto de la etiqueta de sección sobre cada módulo.\n100% es el tamaño predeterminado."
+msgstr "Escalar el texto de la etiqueta de sección sobre cada módulo.\n100% es el tamaño predeterminado."
 
 msgid "Simple UI was updated (%s → %s).\n\nA restart is recommended to apply all changes cleanly."
 msgstr "Simple UI se actualizó (%s → %s).\n\nSe recomienda reiniciar para aplicar todos los cambios correctamente."
@@ -767,7 +767,7 @@ msgid "Custom Title Bar"
 msgstr "Barra de título personalizada"
 
 msgid "Custom Title Bar will be %s after restart.\n\nRestart now?"
-msgstr "La barra de título personalizada quedará %s después de reiniciar.\n\n¿Reiniciar ahora?"
+msgstr "La barra de título personalizada será %s después de reiniciar.\n\n¿Reiniciar ahora?"
 
 msgid "Delete quick action \"%s\"?"
 msgstr "¿Eliminar la acción rápida \"%s\"?"
@@ -816,7 +816,7 @@ msgid "Disable \"Lock Scale\" first to set a custom label scale."
 msgstr "Desactiva \"Escala bloqueada\" primero para establecer una escala de etiqueta personalizada."
 
 msgid "Text Size"
-msgstr "Tamaño de texto"
+msgstr "Tamaño del texto"
 
 msgid "Modules"
 msgstr "Módulos"
@@ -828,22 +828,22 @@ msgid "Scale for this module.\n100% is the default size."
 msgstr "Escala para este módulo.\n100% es el tamaño predeterminado."
 
 msgid "Scale for the collection name text.\n100% is the default size."
-msgstr "Escala para el texto del nombre de la colección.\n100% es el tamaño predeterminado."
+msgstr "Escalar el nombre de la colección.\n100% es el tamaño predeterminado."
 
 msgid "Scale for the cover thumbnail only.\n100% is the default size."
-msgstr "Escala solo para la miniatura de portada.\n100% es el tamaño predeterminado."
+msgstr "Escalar solo la miniatura de portada.\n100% es el tamaño predeterminado."
 
 msgid "Scale for all text elements (title, author, progress, time).\n100% is the default size."
-msgstr "Escala para todos los elementos de texto (título, autor, progreso, tiempo).\n100% es el tamaño predeterminado."
+msgstr "Escalar todos los elementos de texto (título, autor, progreso, tiempo).\n100% es el tamaño predeterminado."
 
 msgid "Scale for the button label text.\n100% is the default size."
-msgstr "Escala para el texto de la etiqueta del botón.\n100% es el tamaño predeterminado."
+msgstr "Escalar el texto de la etiqueta del botón.\n100% es el tamaño predeterminado."
 
 msgid "Scale for the cover thumbnails only.\nText and progress bar follow the module scale.\n100% is the default size."
-msgstr "Escala solo para las miniaturas de portada.\nEl texto y la barra de progreso siguen la escala del módulo.\n100% es el tamaño predeterminado."
+msgstr "Escalar solo las miniaturas de portada.\nEl texto y la barra de progreso siguen la escala del módulo.\n100% es el tamaño predeterminado."
 
 msgid "Scale for the percentage read text.\n100% is the default size."
-msgstr "Escala para el texto de porcentaje leído.\n100% es el tamaño predeterminado."
+msgstr "Escalar el texto de porcentaje leído.\n100% es el tamaño predeterminado."
 
 msgid "Source"
 msgstr "Fuente"
@@ -861,19 +861,19 @@ msgid "default"
 msgstr "predeterminado"
 
 msgid "Shows \"Page X of Y\" in the title bar subtitle when browsing the library, history or collections.\nNavpager enables this automatically.\nNot available when Navpager is active."
-msgstr "Muestra \"Página X de Y\" en el subtítulo de la barra de título al navegar por la biblioteca, el historial o las colecciones.\nEl navpager lo activa automáticamente.\nNo disponible cuando el navpager está activo."
+msgstr "Muestra \"Página X de Y\" en el subtítulo de la barra de título al navegar por la biblioteca, el historial o las colecciones.\nEl navegador de páginas lo activa automáticamente.\nNo disponible cuando el navegador de páginas está activo."
 
 msgid "Icon Size"
-msgstr "Tamaño del Icono"
+msgstr "Tamaño del icono"
 
 msgid "Icon Size — %d%%"
-msgstr "Tamaño del Icono  —  %d%%"
+msgstr "Tamaño del icono  —  %d%%"
 
 msgid "Label Size"
-msgstr "Tamaño de la Etiqueta"
+msgstr "Tamaño de la etiqueta"
 
 msgid "Label Size — %d%%"
-msgstr "Tamaño de la Etiqueta  —  %d%%"
+msgstr "Tamaño de la etiqueta  —  %d%%"
 
 msgid "Size of the tab icons.\n100% is the default size."
 msgstr "Tamaño de los iconos de las pestañas.\n100% es el tamaño predeterminado."
@@ -909,7 +909,7 @@ msgid "Transparent"
 msgstr "Transparente"
 
 msgid "Hide selection underline"
-msgstr "Ocultar subrayado de selección"
+msgstr "Ocultar el subrayado"
 
 msgid "Author"
 msgstr "Autor"
@@ -936,19 +936,52 @@ msgid "Overlays"
 msgstr "Superposiciones"
 
 msgid "Uniformize Covers (2:3)"
-msgstr "Uniformizar Portadas (2:3)"
+msgstr "Uniformizar portadas (2:3)"
 
 msgid "Invalid arrangement.\nKeep the Left, Center and Right separators in order."
-msgstr "Disposición inválida.\nMantenga los separadores Izquierda, Centro y Derecha en orden."
+msgstr "Organización inválida.\nMantén los separadores Izquierda, Centro y Derecha en orden."
 
 msgid "Invalid arrangement.\nKeep items between the Left and Right separators."
-msgstr "Disposición inválida.\nMantenga los elementos entre los separadores Izquierda y Derecha."
+msgstr "Organización inválida.\nMantén los elementos dentro de los separadores Izquierda y Derecha."
 
 msgid "Fetching bookmarks…"
-msgstr "Obteniendo marcadores…"
+msgstr "Cargando marcadores…"
 
 msgid "Path chooser not available."
-msgstr "El selector de ruta no está disponible."
+msgstr "Selector de ruta no disponible."
 
 msgid "e.g. Comics…"
-msgstr "p. ej. Cómics…"
+msgstr "p. ej.: Cómics…"
+
+msgid "(%d left)"
+msgstr "(%d restante)"
+
+msgid "New Books"
+msgstr "Libros nuevos"
+
+msgid "Hide Wi-Fi icon when off"
+msgstr "Ocultar el icono de Wi‑Fi cuando esté apagado"
+
+msgid "Percentage text"
+msgstr "Porcentaje del texto"
+
+msgid "Percentage overlay on cover"
+msgstr "Porcentaje de la superposición en cubierta"
+
+msgid "Days of reading"
+msgstr "Días de lectura"
+
+msgid "Top Margin  (%d%%)"
+msgstr "Margen superior  (%d%%)"
+
+msgid "Time read"
+msgstr "Tiempo leído"
+
+msgid "Time remaining"
+msgstr "Tiempo restante"
+
+msgid "%d days of reading"
+msgstr "%d días leyendo"
+
+msgid "%s remaining"
+msgstr "%s restante"
