@@ -1,4 +1,5 @@
 # Simple UI — KOReader Plugin
+# Simple UI — KOReader Plugin
 # German translation
 # Copyright (C) 2024 Simple UI Contributors
 # This file is distributed under the same license as the Simple UI package.
@@ -8,7 +9,7 @@ msgstr ""
 "Project-Id-Version: simpleui\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-16 21:54+0000\n"
-"PO-Revision-Date: 2026-03-19 14:01+0100\n"
+"PO-Revision-Date: 2026-03-31 16:37+0200\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: sui_menu.lua:320
 msgid "    Size"
-msgstr ""
+msgstr "    Größe"
 
 #: desktop_modules/module_reading_goals.lua:602
 msgid "  Physical Books  (%d in %s)"
@@ -47,11 +48,11 @@ msgstr "%d Bücher"
 
 #: desktop_modules/module_currently.lua:336
 msgid "%d days of reading"
-msgstr ""
+msgstr "%d Lesetage"
 
 #: desktop_modules/module_recent.lua:123
 msgid "%d%%"
-msgstr ""
+msgstr "%d%%"
 
 #: desktop_modules/module_currently.lua:309
 #: desktop_modules/module_new_books.lua:141
@@ -74,15 +75,15 @@ msgstr "%s verbleibend"
 
 #: desktop_modules/module_currently.lua:335
 msgid "1 day of reading"
-msgstr ""
+msgstr "1 Tag Lesezeit"
 
 #: sui_menu.lua:1122
 msgid "Add at least 2 actions to arrange."
-msgstr ""
+msgstr "Füge mindestens 2 Aktionen zum Anordnen hinzu."
 
 #: desktop_modules/module_reading_stats.lua:546
 msgid "Add at least 2 stats to arrange."
-msgstr "Füge mindestens 2 Aktionen zum Anordnen hinzu."
+msgstr "Füge mindestens 2 Statistiken zum Anordnen hinzu."
 
 #: desktop_modules/module_reading_stats.lua:67
 msgid "All time — Books"
@@ -108,7 +109,7 @@ msgstr "Jährliches Leseziel"
 #: sui_menu.lua:1364
 #: sui_menu.lua:1399
 msgid "Apply"
-msgstr ""
+msgstr "Anwenden"
 
 #: desktop_modules/module_clock.lua:49
 msgid "April"
@@ -168,11 +169,11 @@ msgstr "Zurück"
 
 #: desktop_modules/module_collections.lua:575
 msgid "Badge position: Bottom"
-msgstr ""
+msgstr "Position des Abzeichens: Unten"
 
 #: desktop_modules/module_collections.lua:576
 msgid "Badge position: Top"
-msgstr ""
+msgstr "Position des Abzeichens: Oben"
 
 #: sui_config.lua:143
 msgid "Battery"
@@ -184,11 +185,11 @@ msgstr "Buchinfo"
 
 #: sui_bottombar.lua:886
 msgid "Bookmark browser"
-msgstr ""
+msgstr "Lesezeichen-Browser"
 
 #: sui_bottombar.lua:859
 msgid "Bookmark browser not available."
-msgstr ""
+msgstr "Lesenzeichen-Browser ist nicht verfügbar."
 
 #: sui_config.lua:118
 msgid "Bookmarks"
@@ -215,7 +216,7 @@ msgstr "Untere Leisten Größe"
 
 #: sui_menu.lua
 msgid "A restart is required to apply the new bar size across all layouts.\n\nRestart now?"
-msgstr ""
+msgstr "Es ist ein Neustart erforderlich, um die neue Leistengröße in allen Layouts zu übernehmen.\n\nJetzt neu starten?"
 
 #: sui_menu.lua:626
 msgid "Bottom Bar will be %s after restart.\n\nRestart now?"
@@ -224,19 +225,19 @@ msgstr "Die untere Leiste wird mit dem Neustart %s.\n\nJetzt neu starten?"
 #: sui_menu.lua:668
 #: sui_menu.lua:671
 msgid "Bottom Margin"
-msgstr ""
+msgstr "Unterer Rand"
 
 #: sui_menu.lua:669
 msgid "Bottom Margin — %d%%"
-msgstr ""
+msgstr "Unterer Rand — %d%%"
 
 #: sui_homescreen.lua:701
 msgid "Top Margin  (%d%%)"
-msgstr ""
+msgstr "Oberer Rand  (%d%%)"
 
 #: sui_homescreen.lua:704
 msgid "Vertical space above this module.\n100% is the default spacing."
-msgstr ""
+msgstr "Vertikaler Abstand über diesem Modul.\n100% ist der Standardabstand."
 
 #: sui_config.lua:120
 #: sui_config.lua:142
@@ -281,11 +282,11 @@ msgstr "Karten"
 #: sui_menu.lua:498
 #: sui_menu.lua:1672
 msgid "Center"
-msgstr ""
+msgstr "Mitte"
 
 #: sui_quickactions.lua:869
 msgid "Change Icons"
-msgstr ""
+msgstr "Symbole wechseln"
 
 #: sui_config.lua:140
 #: desktop_modules/module_clock.lua:211
@@ -298,7 +299,7 @@ msgstr "Schließen"
 
 #: sui_quickactions.lua:312
 msgid "Codepoint out of valid Unicode range (0â10FFFF)."
-msgstr ""
+msgstr "Der Codepunkt liegt außerhalb des gültigen Unicode-Bereichs (0â10FFFF)."
 
 #: sui_quickactions.lua:702
 msgid "Collection"
@@ -340,7 +341,7 @@ msgstr "Fortsetzen"
 
 #: desktop_modules/module_collections.lua:527
 msgid "Cover for \"%s\""
-msgstr "Cover für \"%s\""
+msgstr "Cover für „%s“"
 
 #: desktop_modules/module_collections.lua:564
 #: desktop_modules/module_collections.lua:566
@@ -415,7 +416,7 @@ msgstr "Standard (Plugin)"
 
 #: sui_quickactions.lua:684
 msgid "Default (System)"
-msgstr Standard (System)"
+msgstr "Standard (System)"
 
 #: desktop_modules/module_quote.lua:976
 msgid "Default Quotes"
@@ -428,7 +429,7 @@ msgstr "Löschen"
 
 #: sui_quickactions.lua:959
 msgid "Delete quick action \"%s\"?"
-msgstr "Schnellaktion \"%s\" löschen?"
+msgstr "Schnellaktion „%s“ löschen?"
 
 #: sui_quickactions.lua:409
 msgid "Dictionary Lookup"
@@ -444,11 +445,11 @@ msgstr "Digital: %d Bücher in %s"
 
 #: sui_menu.lua:1384
 msgid "Disable \"Lock Scale\" first to set a custom label scale."
-msgstr ""
+msgstr "Deaktiviere zuerst „Skalierung sperren“, um eine benutzerdefinierte Beschriftungsskalierung festzulegen."
 
 #: sui_config.lua:1547
 msgid "Disable \"Lock Scale\" first to set a per-module scale."
-msgstr ""
+msgstr "Deaktiviere zuerst „Skalierung sperren“, um eine Skalierung pro Modul festzulegen."
 
 #: sui_config.lua:144
 msgid "Disk Usage"
@@ -472,7 +473,7 @@ msgstr "Aktiviere mindestens 2 Module zum Anordnen."
 
 #: sui_quickactions.lua:271
 msgid "Enter the Unicode codepoint (hex) of a Nerd Fonts symbol.\nYou can look up codes with wakamaifondue.com using the file:\n  /koreader/fonts/nerdfonts/symbols.ttf\nLeave blank and press OK to remove a Nerd Font icon."
-msgstr ""
+msgstr "Gib den Unicode-Codepunkt (hex) eines Nerd-Schriftart Symbols ein.\nDu kannst Codes auf wakamaifondue.com anhand der folgenden Datei nachschlagen:\n  /koreader/fonts/nerdfonts/symbols.ttf\nLass das Feld leer und klicke „Ok“ um ein Nerd-Font Symbol zu entfernen."
 
 #: sui_menu.lua:324
 msgid "Extra Small"
@@ -493,7 +494,7 @@ msgstr "Februar"
 
 #: sui_bottombar.lua:867
 msgid "Fetching bookmarks\xe2\x80\xa6"
-msgstr ""
+msgstr "Lesenzeichen abrufen\xe2\x80\xa6"
 
 #: sui_quickactions.lua:407
 msgid "File Search"
@@ -535,15 +536,15 @@ msgstr "Frontlicht auf diesem Gerät nicht verfügbar."
 
 #: sui_menu.lua:1358
 msgid "Global scale for all modules.\nIndividual overrides in Module Settings take precedence.\n100% is the default size."
-msgstr ""
+msgstr "Globale Skalierung für alle Module.\nIndividuelle Einstellungen in den Moduleinstellungen haben Vorrang.\n100% ist die Standardgröße."
 
 #: sui_menu.lua:645
 msgid "Height of the bottom navigation bar.\n100% is the default size."
-msgstr ""
+msgstr "Höhe der Navigationsleiste unten.\n100% ist die Standardgröße."
 
 #: sui_menu.lua:587
 msgid "Height of the top status bar.\n100% is the default size."
-msgstr ""
+msgstr "Höhe der Statusleiste oben.\n100% ist die Standardgröße."
 
 #: sui_menu.lua:728
 #: sui_menu.lua:1605
@@ -553,11 +554,11 @@ msgstr "Versteckt"
 
 #: sui_menu.lua:1132
 msgid "Hide Text"
-msgstr ""
+msgstr "Text ausblenden"
 
 #: sui_menu.lua:1702
 msgid "Hide selection underline"
-msgstr ""
+msgstr "Unterstreichung der Auswahl ausblenden"
 
 #: sui_bottombar.lua:890
 #: sui_config.lua:115
@@ -583,11 +584,11 @@ msgstr "Startbildschirm"
 
 #: sui_bottombar.lua:907
 msgid "Home folder"
-msgstr ""
+msgstr "Startordner"
 
 #: sui_bottombar.lua:909
 msgid "Home folder + subfolders"
-msgstr ""
+msgstr "Startordner + Unterordner"
 
 #: sui_homescreen.lua:446
 msgid "Homescreen"
@@ -629,11 +630,11 @@ msgstr "Ungültige Anordnung.\nBehalte die Elemente zwischen dem linken und rech
 
 #: sui_menu.lua:525
 msgid "Invalid arrangement.\nKeep the Left, Center and Right separators in order."
-msgstr ""
+msgstr "Ungültige Anordnung,\nBehalte die Reihenfolge der Trennzeichen „Links“, „Mitte“ und „Rechts“ bei."
 
 #: sui_quickactions.lua:318
 msgid "Invalid input. Please enter 1â6 hexadecimal digits (0â9, AâF)."
-msgstr ""
+msgstr "Ungültige Eingabe. Bitte gib 1 bis 6 hexadezimale Ziffern ein (0â9, AâF)."
 
 #: desktop_modules/module_currently.lua:671
 #: sui_menu.lua:606
@@ -654,20 +655,20 @@ msgstr "Juni"
 
 #: sui_menu.lua:1392
 msgid "Label Scale"
-msgstr ""
+msgstr "Label-Skalierung"
 
 #: sui_menu.lua:710
 #: sui_menu.lua:713
 msgid "Label Size"
-msgstr ""
+msgstr "Labelgröße"
 
 #: sui_menu.lua:711
 msgid "Label Size — %d%%"
-msgstr ""
+msgstr "Labelgröße — %d%%"
 
 #: sui_menu.lua:1377
 msgid "Labels"
-msgstr ""
+msgstr "Labels"
 
 #: sui_menu.lua:962
 msgid "Large"
@@ -705,7 +706,7 @@ msgstr "Liste"
 
 #: sui_menu.lua:1338
 msgid "Lock Scale"
-msgstr ""
+msgstr "Skalierung sperren"
 
 #: desktop_modules/module_clock.lua:49
 msgid "March"
@@ -746,7 +747,7 @@ msgstr "Menü"
 
 #: sui_menu.lua:260
 msgid "Minimum 1 tab required in navpager mode."
-msgstr ""
+msgstr "Mindestens 1 Tab im Seitennavigator-Modus erforderlich."
 
 #: sui_menu.lua:261
 msgid "Minimum 2 tabs required. Select another tab first."
@@ -758,7 +759,7 @@ msgstr "Minuten pro Tag:"
 
 #: sui_menu.lua:1355
 msgid "Module Scale"
-msgstr ""
+msgstr "Modul-Skalierung"
 
 #: sui_menu.lua:1314
 msgid "Module Settings"
@@ -790,7 +791,7 @@ msgstr "Montag"
 
 #: desktop_modules/module_quote.lua:996
 msgid "My Highlights"
-msgstr ""
+msgstr "Meine Markierungen"
 
 #: sui_quickactions.lua:609
 #: sui_quickactions.lua:628
@@ -801,23 +802,23 @@ msgstr "Name"
 
 #: sui_menu.lua:1547
 msgid "Navigation Bar"
-msgstr ""
+msgstr "Navigationsleiste"
 
 #: sui_menu.lua:375
 msgid "Navpager"
-msgstr ""
+msgstr "Seitennavigator"
 
 #: sui_menu.lua:397
 msgid "Navpager will be %s after restart.\n\nRestart now?"
-msgstr ""
+msgstr "Der Seitennavigator wird nach dem Neustart %s.\n\nJetzt neu starten?"
 
 #: sui_quickactions.lua:268
 msgid "Nerd Font Icon"
-msgstr ""
+msgstr "Nerd-Schriftart Symbol"
 
 #: sui_quickactions.lua:358
 msgid "Nerd Font symbol…"
-msgstr ""
+msgstr "Nerd-Schriftart Symbol…"
 
 #: sui_bottombar.lua:1213
 msgid "Network manager unavailable."
@@ -838,11 +839,11 @@ msgstr "Neue Schnellaktion"
 
 #: sui_quickactions.lua:817
 msgid "New name…"
-msgstr "Neuer Name..."
+msgstr "Neuer Name…"
 
 #: sui_bottombar.lua:245
 msgid "Next"
-msgstr ""
+msgstr "Weiter"
 
 #: sui_menu.lua:1318
 msgid "No Module Limit  ⚠ not recommended"
@@ -854,7 +855,7 @@ msgstr "Kein Buch im Verlauf."
 
 #: sui_foldercovers.lua:394
 msgid "No books found in this folder."
-msgstr ""
+msgstr "Keine Bücher in diesem Ordner gefunden."
 
 #: sui_homescreen.lua:116
 msgid "No books opened yet"
@@ -874,7 +875,7 @@ msgstr "Kein Ordner, keine Sammlung oder kein Plugin konfiguriert.\nGehe zu Simp
 
 #: desktop_modules/module_quote.lua:699
 msgid "No highlights found. Open a book and highlight some passages."
-msgstr ""
+msgstr "Keine Markierungen gefunden. Öffne ein Buch und markiere einige Passagen."
 
 #: sui_quickactions.lua:371
 msgid "No icons found in:"
@@ -902,11 +903,11 @@ msgstr "November"
 
 #: sui_menu.lua:1602
 msgid "Number of Books in Folder"
-msgstr ""
+msgstr "Anzahl an Bücher im Ordner"
 
 #: sui_menu.lua:1634
 msgid "Number of Pages"
-msgstr ""
+msgstr "Anzahl an Seiten"
 
 #: sui_quickactions.lua:286
 msgid "OK"
@@ -954,20 +955,20 @@ msgstr "Öffne ein Buch um loszulegen"
 
 #: sui_menu.lua:1598
 msgid "Overlays"
-msgstr ""
+msgstr "Einblendungen"
 
 #: sui_patches.lua:1125
 #: sui_patches.lua:1239
 msgid "Page %1 of %2"
-msgstr ""
+msgstr "Seite %1 von %2"
 
 #: sui_menu.lua:356
 msgid "Page number in title bar"
-msgstr ""
+msgstr "Seitenzahl in der Titelleiste"
 
 #: sui_menu.lua:1548
 msgid "Pagination Bar"
-msgstr "Seitenleiste"
+msgstr "Nummerierungsleiste"
 
 #: sui_menu.lua:339
 msgid "Pagination bar size will change after restart.\n\nRestart now?"
@@ -983,19 +984,19 @@ msgstr "Pfad"
 
 #: sui_quickactions.lua:592
 msgid "Path chooser not available."
-msgstr ""
+msgstr "Pfadauswahl nicht verfügbar."
 
 #: desktop_modules/module_recent.lua:286
 msgid "Percentage overlay on cover"
-msgstr ""
+msgstr "Prozentangabe als Einblendung auf dem Cover"
 
 #: desktop_modules/module_currently.lua:524
 msgid "Percentage read"
-msgstr ""
+msgstr "Prozentsatz gelesen"
 
 #: desktop_modules/module_recent.lua:276
 msgid "Percentage text"
-msgstr ""
+msgstr "Prozentangabe"
 
 #: desktop_modules/module_reading_goals.lua:380
 msgid "Physical Books — %s"
@@ -1027,15 +1028,15 @@ msgstr "Energie"
 
 #: sui_bottombar.lua:245
 msgid "Prev"
-msgstr ""
+msgstr "Zurück"
 
 #: desktop_modules/module_recent.lua:266
 msgid "Progress bar"
-msgstr ""
+msgstr "Fortschrittsanzeige"
 
 #: desktop_modules/module_currently.lua:499
 msgid "Progress bar style"
-msgstr ""
+msgstr "Stil der Fortschrittsanzeige"
 
 #: sui_menu.lua:1248
 #: sui_menu.lua:1555
@@ -1065,7 +1066,7 @@ msgstr "Zitat des Tages"
 
 #: desktop_modules/module_quote.lua:1018
 msgid "Quotes + My Highlights"
-msgstr ""
+msgstr "Zitate + meine Markierungen"
 
 #: sui_config.lua:145
 msgid "RAM Usage"
@@ -1092,7 +1093,7 @@ msgstr "Neustart"
 
 #: sui_menu.lua:378
 msgid "Replaces the pagination bar with Prev/Next arrows at the edges of the bottom bar.\nThe arrows dim when there is no previous or next page.\nWith navpager active, as few as 1 tab and at most 4 tabs can be configured."
-msgstr ""
+msgstr "Ersetzt die Nummerierungsleiste mit Vor-/Zurück-Pfeilen an den Rändern der unteren Leiste.\nDie Pfeile werden ausgeblendet, wenn keine vorherige oder nächste Seite vorhanden ist.\nBei aktivem Seitennavigator können mindestens 1 bis maximal 4 Tabs konfiguriert werden."
 
 #: sui_menu.lua:1420
 #: sui_quickactions.lua:824
@@ -1101,11 +1102,11 @@ msgstr "Zurücksetzen"
 
 #: sui_menu.lua:1419
 msgid "Reset all scales to default (100%)? This cannot be undone."
-msgstr ""
+msgstr "Alle Skalierungen auf die Standardeinstellung (100%) zurücksetzen? Dies kann nicht rückgängig gemacht werden."
 
 #: sui_menu.lua:1414
 msgid "Reset to Default Scale"
-msgstr ""
+msgstr "Skalierungen auf Standardeinstellungen zurücksetzen"
 
 #: sui_bottombar.lua:1412
 #: sui_menu.lua:310
@@ -1155,40 +1156,40 @@ msgstr "Speichern"
 #: desktop_modules/module_recent.lua:225
 #: desktop_modules/module_recent.lua:227
 msgid "Scale"
-msgstr ""
+msgstr "Skalierung"
 
 #: desktop_modules/module_currently.lua:463
 msgid "Scale for all text elements (title, author, progress, time).\n100% is the default size."
-msgstr ""
+msgstr "Skalierung für alle Textelemente (Titel, Autor, Fortschritt, Zeit).\n100% ist die Standardgröße."
 
 #: desktop_modules/module_quick_actions.lua:259
 msgid "Scale for the button label text.\n100% is the default size."
-msgstr ""
+msgstr "Skalierung für Texte der Schaltflächen.\n100% ist die Standardgröße."
 
 #: desktop_modules/module_collections.lua:448
 msgid "Scale for the collection name text.\n100% is the default size."
-msgstr ""
+msgstr "Skalierung für Text der Sammlungsnamen.\n100% ist die Standardgröße."
 
 #: desktop_modules/module_collections.lua:567
 msgid "Scale for the collection thumbnails only.\nThe label text follows the module scale.\n100% is the default size."
-msgstr ""
+msgstr "Skalierung nur für die Miniaturansichten der Sammlung.\nDer Label-Text richtet sich nach der Skalierung des Moduls.\n100% ist die Standardgröße."
 
 #: desktop_modules/module_currently.lua:450
 msgid "Scale for the cover thumbnail only.\n100% is the default size."
-msgstr ""
+msgstr "Skalierung nur für die Cover Miniaturansichten.\n100% ist die Standardgröße."
 
 #: desktop_modules/module_new_books.lua:221
 #: desktop_modules/module_recent.lua:242
 msgid "Scale for the cover thumbnails only.\nText and progress bar follow the module scale.\n100% is the default size."
-msgstr ""
+msgstr "Skalierung nur für die Miniaturansichten der Cover.\nDer Text und Fortschrittsanzeige richten sich nach der Skalierung des Moduls.\n100% ist die Standardgröße."
 
 #: desktop_modules/module_new_books.lua:233
 msgid "Scale for the label text.\n100% is the default size."
-msgstr ""
+msgstr "Skalierung für Label-Texte.\n100% ist die Standardgröße."
 
 #: desktop_modules/module_recent.lua:256
 msgid "Scale for the percentage read text.\n100% is the default size."
-msgstr ""
+msgstr "Skalierung für den prozentual gelesenen Textanteil.\n100 % ist die Standardgröße."
 
 #: desktop_modules/module_clock.lua:359
 #: desktop_modules/module_collections.lua:435
@@ -1200,15 +1201,15 @@ msgstr ""
 #: desktop_modules/module_reading_stats.lua:455
 #: desktop_modules/module_recent.lua:228
 msgid "Scale for this module.\n100% is the default size."
-msgstr ""
+msgstr "Skalierung für dieses Modul.\n100 % ist die Standardgröße."
 
 #: sui_menu.lua:1357
 msgid "Scales all modules and labels together.\n100% is the default size."
-msgstr ""
+msgstr "Skaliert alle Module und Label gemeinsam.\n100% ist die Standardgröße."
 
 #: sui_menu.lua:1393
 msgid "Scales the section label text above each module.\n100% is the default size."
-msgstr ""
+msgstr "Skaliert den Text der Abschnittsbezeichnung über jedem Modul.\n100% ist die Standardgröße."
 
 #: sui_titlebar.lua:55
 msgid "Search"
@@ -1224,7 +1225,7 @@ msgstr "September"
 
 #: sui_foldercovers.lua:455
 msgid "Set folder cover…"
-msgstr ""
+msgstr "Ordnercover festlegen…"
 
 #: sui_menu.lua:1533
 msgid "Settings"
@@ -1240,7 +1241,7 @@ msgstr "Datum anzeigen"
 
 #: sui_menu.lua:364
 msgid "Shows \"Page X of Y\" in the title bar subtitle when browsing the library, history or collections.\nNavpager enables this automatically.\nNot available when Navpager is active."
-msgstr ""
+msgstr "Zeigt beim Durchsuchen der Bibliothek, des Verlaufs oder der Sammlungen in der Untertitelzeile der Titelleiste „Seite X von Y“ an.\nDer Seitennavigator aktiviert diese Funktion automatisch.\nNicht verfügbar, wenn der Seitennavigator aktiv ist."
 
 #: desktop_modules/module_currently.lua:502
 msgid "Simple"
@@ -1255,7 +1256,7 @@ msgstr "Simple UI"
 
 #: main.lua:68
 msgid "Simple UI was updated (%s → %s).\n\nA restart is recommended to apply all changes cleanly."
-msgstr ""
+msgstr "Simple UI wurde aktualisiert (%s → %s).\n\nEin Neustart wird empfohlen um alle Änderungen ordnungsgemäß zu übernehmen."
 
 #: sui_menu.lua:1523
 msgid "Simple UI will be %s after restart.\n\nRestart now?"
@@ -1268,15 +1269,15 @@ msgstr "Größe"
 
 #: sui_menu.lua:694
 msgid "Size of the tab icons.\n100% is the default size."
-msgstr ""
+msgstr "Größe der Tab-Symbole.\n100% ist die Standardgröße."
 
 #: sui_menu.lua:714
 msgid "Size of the tab label text.\n100% is the default size."
-msgstr ""
+msgstr "Größe des Tab-Label-Texts.\n100% ist die Standardgröße."
 
 #: desktop_modules/module_reading_stats.lua:534
 msgid "Size of the text inside the stat cards.\nDoes not affect card size or padding.\n100% is the default size."
-msgstr ""
+msgstr "Größe des Textes auf den Statistik-Karten.\nHat keinen Einfluss auf die Kartengröße oder den Abstand.\n00% ist die Standardgröße."
 
 #: sui_menu.lua:325
 msgid "Small"
@@ -1284,11 +1285,11 @@ msgstr "Klein"
 
 #: desktop_modules/module_quote.lua:970
 msgid "Source"
-msgstr ""
+msgstr "Quelle"
 
 #: sui_menu.lua:672
 msgid "Space below the bottom navigation bar.\n100% is the default spacing."
-msgstr ""
+msgstr "Abstand unter der Navigationsleiste unten.\n100% ist der Standardabstand."
 
 #: sui_patches.lua:306
 #: sui_patches.lua:308
@@ -1306,7 +1307,7 @@ msgstr "Statistiken-Plugin nicht verfügbar."
 
 #: sui_config.lua:121
 msgid "Stats"
-msgstr ""
+msgstr "Statistiken"
 
 #: sui_menu.lua:1539
 msgid "Status Bar"
@@ -1330,7 +1331,7 @@ msgstr "Wischindikator"
 
 #: sui_menu.lua:427
 msgid "Hide Wi-Fi icon when off"
-msgstr ""
+msgstr "WLAN-Symbol ausblenden, wenn nicht verbunden"
 
 #: sui_quickactions.lua:706
 msgid "System Actions"
@@ -1365,11 +1366,11 @@ msgstr "Text"
 #: desktop_modules/module_recent.lua:254
 #: desktop_modules/module_recent.lua:255
 msgid "Text Size"
-msgstr ""
+msgstr "Textgröße"
 
 #: desktop_modules/module_reading_stats.lua:531
 msgid "Text Size — %d%%"
-msgstr ""
+msgstr "Textgröße — %d%%"
 
 #: sui_menu.lua:103
 msgid "Text only"
@@ -1415,15 +1416,15 @@ msgstr "Obere Leiste"
 
 #: sui_menu.lua:586
 msgid "Top Bar Size"
-msgstr ""
+msgstr "Größe der oberen Leiste"
 
 #: sui_menu.lua:569
 msgid "Top Bar will be %s after restart.\n\nRestart now?"
-msgstr Die obere Leiste wird mit dem Neustart %s.\n\nJetzt neu starten?"
+msgstr "Die obere Leiste wird mit dem Neustart %s.\n\nJetzt neu starten?"
 
 #: sui_menu.lua:728
 msgid "Top separator"
-msgstr ""
+msgstr "Trennzeichen oben"
 
 #: sui_menu.lua:1653
 msgid "Transparent"
@@ -1442,7 +1443,7 @@ msgstr "Typ"
 
 #: sui_menu.lua:1692
 msgid "Uniformize Covers (2:3)"
-msgstr ""
+msgstr "Cover vereinheitlichen (2:3)"
 
 #: sui_menu.lua:728
 msgid "Visible"
@@ -1474,11 +1475,11 @@ msgstr "Wikipedia-Suche"
 
 #: desktop_modules/module_currently.lua:512
 msgid "With percentage"
-msgstr ""
+msgstr "Mit Prozentangabe"
 
 #: desktop_modules/module_quote.lua:701
 msgid "Your highlights"
-msgstr ""
+msgstr "Deine Markierungen"
 
 #: desktop_modules/module_reading_stats.lua:67
 msgid "books finished"
@@ -1510,7 +1511,7 @@ msgstr "deaktiviert"
 
 #: sui_quickactions.lua:609
 msgid "e.g. Comics…"
-msgstr "z.B. Bücher"
+msgstr "z.B. Comics…"
 
 #: sui_quickactions.lua:655
 msgid "e.g. Rakuyomi…"
@@ -1534,7 +1535,7 @@ msgstr "aktiviert"
 
 #: sui_quickactions.lua:270
 msgid "hex code, e.g. E001"
-msgstr ""
+msgstr "Hex-Code, z.B. E001"
 
 #: sui_menu.lua:307
 msgid "hidden"
@@ -1571,7 +1572,7 @@ msgstr "Autor"
 
 #: desktop_modules/module_currently.lua:274
 msgid "Days of reading"
-msgstr ""
+msgstr "Lesetage"
 
 #: desktop_modules/module_currently.lua:275
 msgid "Time read"
@@ -1595,4 +1596,4 @@ msgstr "%d Tage"
 
 #: desktop_modules/module_currently.lua
 msgid "Stats layout"
-msgstr ""
+msgstr "Anordnung der Statistiken"
