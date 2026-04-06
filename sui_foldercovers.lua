@@ -393,9 +393,16 @@ end
 local function _findCoverRecursive(menu, dir_path, depth, max_depth, BookInfoManager)
     if depth > max_depth then return nil end
 
+    -- Temporarily clear the status filter so that books filtered out by the
+    -- user's "show only new/reading" setting are still visible for cover lookup.
+    -- The filter governs what is *displayed*, not what can supply cover art.
+    local FileChooser    = require("ui/widget/filechooser")
+    local saved_filter   = FileChooser.show_filter
+    FileChooser.show_filter = {}
     menu._dummy = true
     local entries = menu:genItemTableFromPath(dir_path)
     menu._dummy = false
+    FileChooser.show_filter = saved_filter
     if not entries then return nil end
 
     -- First pass: try files at this level.
@@ -431,9 +438,15 @@ end
 -- Collects all book entries under dir_path, optionally recursing into
 -- subfolders up to max_depth levels when recursive cover scan is enabled.
 local function _collectBooks(menu, dir_path, depth, max_depth, out)
+    -- Strip status filter so finished/on-hold books are included as cover candidates
+    -- even when the browser is set to show only new/reading books.
+    local FileChooser    = require("ui/widget/filechooser")
+    local saved_filter   = FileChooser.show_filter
+    FileChooser.show_filter = {}
     menu._dummy = true
     local entries = menu:genItemTableFromPath(dir_path)
     menu._dummy = false
+    FileChooser.show_filter = saved_filter
     if not entries then return end
     for _, entry in ipairs(entries) do
         if entry.is_file or entry.file then
@@ -746,9 +759,15 @@ function M.install()
             end
         end
 
+        -- Strip status filter so finished/on-hold books can still supply cover art
+        -- even when the browser is configured to show only new/reading books.
+        local FileChooser_fc  = require("ui/widget/filechooser")
+        local saved_filter_fc = FileChooser_fc.show_filter
+        FileChooser_fc.show_filter = {}
         self.menu._dummy = true
         local entries = self.menu:genItemTableFromPath(dir_path)
         self.menu._dummy = false
+        FileChooser_fc.show_filter = saved_filter_fc
         if not entries then return end
 
         -- Track whether this folder has direct ebooks or only subfolders,
