@@ -316,8 +316,7 @@ local function makeSlot(slot)
                 text_func = function()
                     if isSelected(aid) then return _lbl end
                     local rem = MAX_QA - #getItems()
-                    if rem <= 0 then return _lbl .. "  (0 left)" end
-                    if rem <= 2 then return _lbl .. "  (" .. rem .. " left)" end
+                    if rem <= 2 then return _lbl .. string.format(N_("  (%d left)", "  (%d left)", rem), rem) end
                     return _lbl
                 end,
                 checked_func   = function() return isSelected(aid) end,

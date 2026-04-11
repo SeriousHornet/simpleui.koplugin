@@ -235,8 +235,7 @@ SimpleUIPlugin.addToMainMenu = function(self, menu_items)
                         if tid == _aid then return _base_label end
                     end
                     local rem = limit - #loadTabConfig()
-                    if rem <= 0 then return _base_label .. "  (0 left)" end
-                    if rem <= 2 then return _base_label .. "  (" .. rem .. " left)" end
+                    if rem <= 2 then return _base_label .. string.format(N_("  (%d left)", "  (%d left)", rem), rem) end
                     return _base_label
                 end,
                 checked_func = function()
@@ -554,9 +553,9 @@ SimpleUIPlugin.addToMainMenu = function(self, menu_items)
                     dlg = InputDialog():new{
                         title       = _("Custom Text"),
                         input       = Config.getTopbarCustomText(),
-                        description = string.format(
-                            _("Text shown in the top bar.\nMaximum %d characters."),
-                            Config.TOPBAR_CUSTOM_TEXT_MAX),
+                        description = string.format(N_("Text shown in the top bar.\nMaximum %d character.",
+                                      "Text shown in the top bar.\nMaximum %d characters.", Config.TOPBAR_CUSTOM_TEXT_MAX),
+                                      Config.TOPBAR_CUSTOM_TEXT_MAX),
                         input_type  = "text",
                         buttons     = {{
                             {
@@ -1334,8 +1333,7 @@ SimpleUIPlugin.addToMainMenu = function(self, menu_items)
                 text_func = function()
                     if isSelected(aid) then return _lbl end
                     local rem = MAX_QA_ITEMS - #getItems()
-                    if rem <= 0 then return _lbl .. "  (0 left)" end
-                    if rem <= 2 then return _lbl .. "  (" .. rem .. " left)" end
+                    if rem <= 2 then return _lbl .. string.format(N_("  (%d left)", "  (%d left)", rem), rem) end
                     return _lbl
                 end,
                 checked_func   = function() return isSelected(aid) end,
