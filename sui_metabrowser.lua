@@ -16,6 +16,9 @@ local T                = ffiUtil.template
 
 local M = {}
 
+-- We intentionally extend FileChooser so the browser participates in the same
+-- coverbrowser/mosaic pipeline as the library, instead of behaving like a
+-- standalone BookList.
 local MetaChooser = FileChooser:extend{
     name = "simpleui_metabrowser",
     covers_fullscreen = true,
@@ -71,6 +74,8 @@ local function _seriesSortKey(entry)
 end
 
 local function _virtualPath(kind, group)
+    -- Virtual groups are not real directories on disk; they only need a stable
+    -- synthetic path so FileChooser/CoverBrowser can treat them like folders.
     return "::simpleui_meta::" .. kind .. "::" .. group.value
 end
 
@@ -79,6 +84,7 @@ local function _groupMandatory(group)
 end
 
 local function _buildRootItems(kind, groups)
+    -- Root view: one virtual directory per author/series value.
     local items = {}
     for _, group in ipairs(groups) do
         items[#items + 1] = {
@@ -98,6 +104,8 @@ local function _buildRootItems(kind, groups)
 end
 
 local function _buildBookItems(kind, group)
+    -- Group view: real file entries, so opening/holding a book reuses the same
+    -- FileChooser actions as the library.
     local items = {}
     for _, entry in ipairs(group.items) do
         local mandatory
@@ -145,6 +153,9 @@ local function _collectGroups(ui, kind)
     local home = _resolveHomeDir()
     if not home then return nil, _("Home folder not available.") end
 
+    -- The browser is metadata-driven: folder names do not matter here.
+    -- We scan every supported book below home_dir and group by embedded
+    -- author/series metadata.
     local grouped = {}
     util.findFiles(home, function(file)
         if not DocumentRegistry:hasProvider(file) then return end
@@ -192,6 +203,7 @@ end
 
 function MetaChooser:init()
     FileChooser.init(self)
+    -- Preserve the titlebar's original left-button position
     if self.title_bar and self.title_bar.left_button then
         local btn = self.title_bar.left_button
         self._meta_back_offset = btn.overlap_offset and { btn.overlap_offset[1], btn.overlap_offset[2] } or nil
@@ -210,13 +222,17 @@ function MetaChooser:_updateBackButton()
     end
 
     if self._meta_group then
+        -- Inside a group: go back to the root author/series list.
         btn.callback = function() self:onFolderUp() end
     else
+        -- At root: keep the button visible to match the surrounding titlebar,
+        -- but make it inert so it does not close the browser unexpectedly.
         btn.callback = function() end
     end
 end
 
 function MetaChooser:_showRoot()
+    -- Root = virtual folders (authors or series).
     self._meta_group = nil
     self.title = T("%1 (%2)", _labelFor(self._meta_kind), #self._meta_groups)
     self.onReturn = nil
@@ -227,6 +243,7 @@ function MetaChooser:_showRoot()
 end
 
 function MetaChooser:_showGroup(group)
+    -- Group = concrete book files for one selected author/series.
     self._meta_group = group
     self.onReturn = function()
         self:_showRoot()
@@ -239,6 +256,8 @@ function MetaChooser:_showGroup(group)
 end
 
 function MetaChooser:refreshPath()
+    -- FileChooser expects refreshPath() to rebuild the current view. Since this
+    -- browser is virtual, we re-render whichever level is currently active.
     if self._meta_group then
         self:_showGroup(self._meta_group)
     else
@@ -248,6 +267,7 @@ end
 
 function MetaChooser:onMenuSelect(item)
     if item and item.is_meta_group then
+        -- Enter the virtual folder instead of changing to a real filesystem path.
         self:_showGroup(self._meta_groups_by_value[item.meta_value])
         return true
     end
@@ -282,6 +302,7 @@ function MetaChooser:onLeftButtonTap()
 end
 
 function MetaChooser:onFileSelect(item)
+    -- Open the selected book through the same helper the library uses.
     filemanagerutil.openFile(self.ui, item.path, self.close_callback)
     return true
 end
@@ -293,6 +314,8 @@ end
 function M.show(ui, kind)
     if kind ~= "authors" and kind ~= "series" then return end
 
+    -- The scan can touch many books, so show a short transient message and do
+    -- the actual collection work on the next tick to keep the UI responsive.
     local info = InfoMessage:new{
         text = _scanLabel(kind),
         timeout = 0.1,
