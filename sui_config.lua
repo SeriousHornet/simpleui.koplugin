@@ -86,22 +86,20 @@ M.ICON = {
     custom         = _P .. "custom.svg",
     custom_dir     = _P .. "custom",             -- directory, no trailing slash
     plugin         = _P .. "plugin.svg",
-    author         = _P .. "author.svg",
-    series         = _P .. "series.svg",
 
     -- Navpager arrow icons (KOReader built-ins)
     nav_prev       = _KO .. "chevron.left.svg",
     nav_next       = _KO .. "chevron.right.svg",
 
     -- KOReader built-in icons
-    ko_home        = _KO .. "home.svg",
-    ko_star        = _KO .. "star.empty.svg",
-    ko_wifi_on     = _KO .. "wifi.open.100.svg",
-    ko_wifi_off    = _KO .. "wifi.open.0.svg",
+    ko_home        = _P .. "home.svg",
+    ko_star        = _P .. "favorites.svg",
+    ko_wifi_on     = _P .. "wifi.on.svg",
+    ko_wifi_off    = _P .. "wifi.off.svg",
     ko_menu        = _KO .. "appbar.menu.svg",
     ko_settings    = _KO .. "appbar.settings.svg",
     ko_search      = _KO .. "appbar.search.svg",
-    ko_bookmark    = _KO .. "bookmark.svg",
+    ko_bookmark    = _P .. "bookmark.svg",
 }
 
 -- Legacy flat constants — kept for any external code that may reference them.
@@ -110,8 +108,8 @@ M.CUSTOM_ICON            = M.ICON.custom
 M.CUSTOM_PLUGIN_ICON     = M.ICON.plugin
 M.CUSTOM_DISPATCHER_ICON = M.ICON.ko_settings
 M.DEFAULT_NUM_TABS       = 4
-M.MAX_TABS               = 6        -- standard mode limit
-M.MAX_TABS_NAVPAGER      = 4        -- navpager mode limit
+M.MAX_TABS               = 20        -- standard mode limit
+M.MAX_TABS_NAVPAGER      = 20        -- navpager mode limit
 M.MAX_LABEL_LEN          = 20
 M.MAX_CUSTOM_QA          = 24
 -- When the navpager is enabled the bar always shows exactly this many centre tabs.
