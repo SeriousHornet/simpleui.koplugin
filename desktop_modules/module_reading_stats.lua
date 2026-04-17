@@ -37,7 +37,7 @@ local _BASE_RS_LBL_FS   = Screen:scaleBySize(8)
 local _BASE_RS_SEP_W    = Screen:scaleBySize(1)
 local _BASE_RS_PH_FS    = Screen:scaleBySize(11)  -- placeholder "No stats" text
 
-local RS_N_COLS    = 3  -- max columns — not a dimension, no scaling needed
+local RS_N_COLS    = 7  -- max columns — not a dimension, no scaling needed
 
 local SETTING_TYPE = "reading_stats_type"   -- suffix: pfx .. "reading_stats_type"
 
