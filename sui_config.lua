@@ -86,22 +86,20 @@ M.ICON = {
     custom         = _P .. "custom.svg",
     custom_dir     = _P .. "custom",             -- directory, no trailing slash
     plugin         = _P .. "plugin.svg",
-    author         = _P .. "author.svg",
-    series         = _P .. "series.svg",
 
     -- Navpager arrow icons (KOReader built-ins)
     nav_prev       = _KO .. "chevron.left.svg",
     nav_next       = _KO .. "chevron.right.svg",
 
     -- KOReader built-in icons
-    ko_home        = _KO .. "home.svg",
-    ko_star        = _KO .. "star.empty.svg",
-    ko_wifi_on     = _KO .. "wifi.open.100.svg",
-    ko_wifi_off    = _KO .. "wifi.open.0.svg",
+    ko_home        = _P .. "home.svg",
+    ko_star        = _P .. "favorites.svg",
+    ko_wifi_on     = _P .. "wifi.on.svg",
+    ko_wifi_off    = _P .. "wifi.off.svg",
     ko_menu        = _KO .. "appbar.menu.svg",
     ko_settings    = _KO .. "appbar.settings.svg",
     ko_search      = _KO .. "appbar.search.svg",
-    ko_bookmark    = _KO .. "bookmark.svg",
+    ko_bookmark    = _P .. "bookmark.svg",
 }
 
 -- Legacy flat constants — kept for any external code that may reference them.
@@ -109,9 +107,9 @@ M.ICON = {
 M.CUSTOM_ICON            = M.ICON.custom
 M.CUSTOM_PLUGIN_ICON     = M.ICON.plugin
 M.CUSTOM_DISPATCHER_ICON = M.ICON.ko_settings
-M.DEFAULT_NUM_TABS       = 4
-M.MAX_TABS               = 6        -- standard mode limit
-M.MAX_TABS_NAVPAGER      = 4        -- navpager mode limit
+M.DEFAULT_NUM_TABS       = 5
+M.MAX_TABS               = 20        -- standard mode limit
+M.MAX_TABS_NAVPAGER      = 20        -- navpager mode limit
 M.MAX_LABEL_LEN          = 20
 M.MAX_CUSTOM_QA          = 24
 -- When the navpager is enabled the bar always shows exactly this many centre tabs.
@@ -141,10 +139,6 @@ M.ALL_ACTIONS = {
     { id = "frontlight",       label = _("Brightness"),       icon = M.ICON.frontlight  },
     { id = "stats_calendar",   label = _("Stats"),            icon = M.ICON.stats       },
     { id = "power",            label = _("Power"),            icon = M.ICON.power       },
-    { id = "browse_authors",   label = _("Authors"),          icon = M.ICON.author,
-      browsemeta_mode = "author" },
-    { id = "browse_series",    label = _("Series"),           icon = M.ICON.series,
-      browsemeta_mode = "series" },
 }
 
 -- Fast lookup map keyed by action ID.
@@ -670,27 +664,6 @@ function M.applyFirstRunDefaults()
             order_right = { "menu_button" },
         })
         G_reader_settings:saveSetting("simpleui_defaults_v2", true)
-    end
-
-    -- ---------------------------------------------------------------------------
-    -- v3: Browse by Author/Series enabled by default; browse button visible,
-    --     positioned on the right side, to the left of the menu button.
-    -- Guard key: "simpleui_defaults_v3". Safe to call on every init.
-    -- ---------------------------------------------------------------------------
-    if not G_reader_settings:readSetting("simpleui_defaults_v3") then
-        -- Feature on by default.
-        G_reader_settings:saveSetting("simpleui_browsemeta_enabled", true)
-        -- Browse button visible.
-        G_reader_settings:saveSetting("simpleui_tb_item_browse_button", true)
-        -- FM layout: back + search on the left, browse + menu on the right.
-        -- browse_button is left of menu_button (order_right is rendered RTL: last = outermost).
-        G_reader_settings:saveSetting("simpleui_tb_fm_cfg", {
-            side        = { menu_button = "right", up_button = "left",
-                            search_button = "left", browse_button = "right" },
-            order_left  = { "up_button", "search_button" },
-            order_right = { "browse_button", "menu_button" },
-        })
-        G_reader_settings:saveSetting("simpleui_defaults_v3", true)
     end
 end
 
