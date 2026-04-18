@@ -1,0 +1,23 @@
+ZIP_NAME = simpleui.koplugin.zip
+ROOT_DIR = simpleui.koplugin
+
+.PHONY: clean build
+
+build:
+	@echo ">> Building $(ZIP_NAME)"
+	@rm -f ../$(ZIP_NAME)
+	@cd .. && zip -r $(ROOT_DIR)/$(ZIP_NAME) $(ROOT_DIR) \
+		--exclude "$(ROOT_DIR)/.git/*" \
+		--exclude "$(ROOT_DIR)/.github/*" \
+		--exclude "$(ROOT_DIR)/Makefile" \
+		--exclude "$(ROOT_DIR)/.DS_Store" \
+		--exclude "$(ROOT_DIR)/.gitignore" \
+		--exclude "$(ROOT_DIR)/CONTRIBUTING.md" \
+		--exclude "$(ROOT_DIR)/LICENSE" \
+		--exclude "$(ROOT_DIR)/README.md" \
+		--exclude "$(ROOT_DIR)/extract_strings.py" \
+		--exclude "$(ROOT_DIR)/$(ZIP_NAME)"
+	@echo ">> Done!"
+
+clean:
+	@rm -f ../$(ZIP_NAME)

@@ -39,4 +39,7 @@ luac.out
 *.x86_64
 *.hex
 
+/simpleui.koplugin
+/simpleui.koplugin.zip
+
 .DS_Store

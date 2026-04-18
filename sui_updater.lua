@@ -315,8 +315,23 @@ end
 -- Fase 2: download e instalação com Trapper (melhoria 5)
 -- ---------------------------------------------------------------------------
 
+-- Devolve um caminho gravável para o ZIP temporário.
+-- Tenta DataStorage (sempre disponível no KOReader) e só depois /tmp.
+local function _tmpZipPath()
+    local ok, DS = pcall(require, "datastorage")
+    if ok and DS then
+        return DS:getSettingsDir() .. "/simpleui_update.zip"
+    end
+    -- Fallback: verifica se /tmp é gravável.
+    local probe = "/tmp/.simpleui_probe"
+    local fh = io.open(probe, "w")
+    if fh then fh:close(); os.remove(probe); return "/tmp/simpleui_update.zip" end
+    -- Último recurso: diretório do próprio plugin.
+    return _plugin_dir .. "/simpleui_update.zip"
+end
+
 local function _applyUpdate(download_url, new_version)
-    local tmp_zip    = "/tmp/simpleui_update.zip"
+    local tmp_zip    = _tmpZipPath()
     local parent_dir = _plugin_dir:match("^(.+)/[^/]+$") or _plugin_dir
 
     local progress_msg = _toast(

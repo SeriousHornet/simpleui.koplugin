@@ -909,11 +909,17 @@ local function buildFromHighlight(inner_w, face_quote, face_attr, vspan_gap)
     if h.authors and h.authors ~= "" then attr = attr .. ",  " .. h.authors end
 
     -- Strip leading/trailing quote marks before wrapping to avoid double quotes.
+    -- The class covers: ASCII " and ', curly double (U+201C/201D), curly single /
+    -- apostrophe (U+2018/2019), guillemets (U+00AB/00BB, U+2039/203A), and
+    -- low-9 quotes (U+201E/201A) — all common in e-book source text.
+    -- Whitespace is stripped at the same time to avoid "\u{201C} text \u{201D}" becoming "\u{201C}  text \u{201D}".
     -- Also strip leading em/en dashes (dialogue markers from books): they are
     -- typographic artefacts of the source text and the cfont used by TextBoxWidget
     -- does not have a fallback glyph for U+2014/U+2013 when they are the very
     -- first character of a text run, causing a replacement glyph to be shown.
-    local text = h.text:gsub('^["\u{201C}\u{2018}%s]+', ''):gsub('["\u{201D}\u{2019}%s]+$', '')
+    local LEADING_QUOTES  = '^["\'\u{201C}\u{2018}\u{201E}\u{201A}\u{00AB}\u{2039}%s]+'
+    local TRAILING_QUOTES = '["\'\u{201D}\u{2019}\u{201E}\u{201A}\u{00BB}\u{203A}%s]+$'
+    local text = h.text:gsub(LEADING_QUOTES, ''):gsub(TRAILING_QUOTES, '')
     text = text:gsub('^[\u{2014}\u{2013}]%s*', '')
     return buildWidget(inner_w, "\u{201C}" .. text .. "\u{201D}", attr, face_quote, face_attr, vspan_gap),
            h.filepath, h.title, h.pos0, h.page

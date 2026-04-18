@@ -372,20 +372,6 @@ end
 
 function SimpleUIPlugin:onSuspend()
     self._simpleui_suspended = true
-    -- Close any overlays (menus, dialogs, keyboard, etc.) that may be open
-    -- when the device suspends. We collect them first to avoid mutating the
-    -- window stack while iterating it, then close from top to bottom.
-    local to_close = {}
-    for widget in UIManager:topdown_widgets_iter() do
-        if widget.covers_fullscreen then
-            -- Reached the base layer (ReaderUI / FileManager). Stop here.
-            break
-        end
-        table.insert(to_close, widget)
-    end
-    for _, widget in ipairs(to_close) do
-        UIManager:close(widget)
-    end
     -- Snapshot whether the reader was open at the moment of suspend.
     -- We cannot rely on RUI.instance being intact by the time onResume fires
     -- (e.g. autosuspend can race with a reader teardown on some Kobo builds),

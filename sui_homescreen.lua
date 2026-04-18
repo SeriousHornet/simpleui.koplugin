@@ -1565,14 +1565,17 @@ function HomescreenWidget:_buildCtx()
     -- already in prefetched_data (zero extra IO).  M.build() checks
     -- ctx.coverdeck_center_stats before falling back to its own query.
     --
-    -- We use recent_fps[1] as the best-effort centre approximation; the
-    -- coverdeck may adjust curIdx based on the saved SETTING_FP, but in the
-    -- common case (first render after closing a book) fps[1] == curIdx==1.
-    -- A mismatch is harmless: M.build() will fall back to its own query for
-    -- that one render and the result ends up in _bstats_cache for next time.
+    -- Use the saved SETTING_FP (flow_recent_fp) to identify the exact book
+    -- that is currently centred in the carousel.  This is more accurate than
+    -- guessing recent_fps[1]: when the user had rotated the carousel before
+    -- opening a book, the centre fp is not at index 1 and the old guess caused
+    -- a cache miss in M.build(), leaving stats stale until the next carousel
+    -- rotation triggered a re-render.  Fall back to recent_fps[1] only when
+    -- SETTING_FP is absent (first launch, settings cleared, etc.).
     local coverdeck_center_stats = nil
     if mod_cd and Registry.isEnabled(mod_cd, PFX) and self._db_conn then
-        local center_fp = bs.recent_fps and bs.recent_fps[1]
+        local saved_center_fp = G_reader_settings:readSetting(PFX .. "flow_recent_fp")
+        local center_fp = saved_center_fp or (bs.recent_fps and bs.recent_fps[1])
         local pe = center_fp and bs.prefetched_data and bs.prefetched_data[center_fp]
         local center_md5 = type(pe) == "table" and pe.partial_md5_checksum
         if center_md5 then
